@@ -1,0 +1,30 @@
+/*
+ ============================================================================
+ Name        : mathdummy.c
+ Author      : Zachary Weeden
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	//* is multiply
+	/// is division
+	//++ increment
+	//-- decrement
+	// calculation on right, result on left/variable
+	float a;
+	float b=5.0;
+	printf("Input a float: ");
+	scanf("%f",&a);
+	printf("%f / %f = %f\n",a,b,a/b);
+
+	int x = 10;
+	printf("%d",x);
+	x=x+1;
+	printf("%d",x);
+}

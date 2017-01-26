@@ -1,0 +1,27 @@
+/*
+ ============================================================================
+ Name        : flowdummy.c
+ Author      : Zachary Weeden
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	/*
+	 * == is equal to
+	 * < less than
+	 * > greater than
+	 * <= less than equal to
+	 * >= greater than equa lto
+	 * != not equal to
+	 */
+	puts("!!!Hello World!!!"); /* prints !!!Hello World!!! */
+
+
+	return(0);
+}

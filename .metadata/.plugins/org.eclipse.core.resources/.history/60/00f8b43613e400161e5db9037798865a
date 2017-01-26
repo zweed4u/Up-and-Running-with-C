@@ -1,0 +1,20 @@
+/*
+ ============================================================================
+ Name        : mathdummy.c
+ Author      : Zachary Weeden
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	//* is multiply
+	/// is division
+	//++ increment
+	//-- decrement
+	// calculation on right
+}

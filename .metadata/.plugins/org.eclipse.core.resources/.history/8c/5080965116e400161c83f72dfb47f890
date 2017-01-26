@@ -1,0 +1,33 @@
+/*
+ ============================================================================
+ Name        : flowdummy.c
+ Author      : Zachary Weeden
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	/*
+	 * == is equal to
+	 * < less than
+	 * > greater than
+	 * <= less than equal to
+	 * >= greater than equal to
+	 * != not equal to
+	 */
+	int a;
+	int thresh=10
+	printf("Type an integer: ");
+	scanf("%d",&a);
+	printf("You typed: &d\n",a);
+	if(a>10){
+		printf("%d is less than ")
+	}
+
+	return(0);
+}

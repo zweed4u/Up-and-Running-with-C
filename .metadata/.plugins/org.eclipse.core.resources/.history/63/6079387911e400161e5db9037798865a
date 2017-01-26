@@ -1,0 +1,17 @@
+/*
+ ============================================================================
+ Name        : dummy2.c
+ Author      : Zachary Weeden
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	char password[] = "fuzzy\"\n\t\"wuzzy";//array declaration
+	printf("The password is \"%s\"\n",password);
+}
