@@ -1,4 +1,4 @@
-14:50:42 **** Incremental Build of configuration Debug for project stringdummy ****
+15:24:43 **** Incremental Build of configuration Debug for project stringdummy ****
 make all 
 Building file: ../src/stringdummy.c
 Invoking: GCC C Compiler
@@ -11,5 +11,5 @@ gcc  -o "stringdummy"  ./src/stringdummy.o
 Finished building target: stringdummy
  
 
-14:50:42 Build Finished (took 508ms)
+15:24:44 Build Finished (took 333ms)
 

@@ -1,6 +1,6 @@
-14:50:41 **** Incremental Build of configuration Debug for project returnvaldummy ****
+15:24:43 **** Incremental Build of configuration Debug for project returnvaldummy ****
 make all 
 make: Nothing to be done for 'all'.
 
-14:50:42 Build Finished (took 96ms)
+15:24:43 Build Finished (took 170ms)
 
