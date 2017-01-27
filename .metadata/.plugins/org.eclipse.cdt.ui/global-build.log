@@ -5373,3 +5373,738 @@ Finished building target: timedummy
 17:00:23 **** Incremental Build of configuration Debug for project timedummy ****
 make all 
 make: Nothing to be done for 'all'.
+17:05:52 **** Incremental Build of configuration Debug for project argsdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:05:52 **** Incremental Build of configuration Debug for project arraydummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:05:52 **** Incremental Build of configuration Debug for project constantdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:05:52 **** Incremental Build of configuration Debug for project dummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:05:52 **** Incremental Build of configuration Debug for project dummy2 ****
+make all 
+make: Nothing to be done for 'all'.
+17:05:53 **** Incremental Build of configuration Debug for project flowdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:05:53 **** Incremental Build of configuration Debug for project fordummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:05:53 **** Incremental Build of configuration Debug for project funcchallenge ****
+make all 
+make: Nothing to be done for 'all'.
+17:05:53 **** Incremental Build of configuration Debug for project functiondummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:05:53 **** Incremental Build of configuration Debug for project logicaloperatorsdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:05:54 **** Incremental Build of configuration Debug for project mathdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:05:54 **** Incremental Build of configuration Debug for project montiorwhiledummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:05:54 **** Incremental Build of configuration Debug for project multiarraydummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:05:54 **** Incremental Build of configuration Debug for project multidimenstionarraychallenge ****
+make all 
+make: Nothing to be done for 'all'.
+17:05:54 **** Incremental Build of configuration Debug for project placeholderdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:05:55 **** Incremental Build of configuration Debug for project returndummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:05:55 **** Incremental Build of configuration Debug for project returnvaldummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:05:55 **** Incremental Build of configuration Debug for project stringdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:05:55 **** Incremental Build of configuration Debug for project structdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:05:55 **** Incremental Build of configuration Debug for project timedummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:05:55 **** Build of configuration Debug for project vardummy ****
+make all 
+Building file: ../src/vardummy.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/vardummy.d" -MT"src/vardummy.d" -o "src/vardummy.o" "../src/vardummy.c"
+Finished building: ../src/vardummy.c
+ 
+Building target: vardummy
+Invoking: GCC C Linker
+gcc  -o "vardummy"  ./src/vardummy.o   
+Finished building target: vardummy
+ 
+17:05:57 **** Incremental Build of configuration Debug for project vardummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:07:15 **** Incremental Build of configuration Debug for project argsdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:07:15 **** Incremental Build of configuration Debug for project arraydummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:07:15 **** Incremental Build of configuration Debug for project constantdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:07:15 **** Incremental Build of configuration Debug for project dummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:07:16 **** Incremental Build of configuration Debug for project dummy2 ****
+make all 
+make: Nothing to be done for 'all'.
+17:07:16 **** Incremental Build of configuration Debug for project flowdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:07:16 **** Incremental Build of configuration Debug for project fordummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:07:16 **** Incremental Build of configuration Debug for project funcchallenge ****
+make all 
+make: Nothing to be done for 'all'.
+17:07:16 **** Incremental Build of configuration Debug for project functiondummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:07:17 **** Incremental Build of configuration Debug for project logicaloperatorsdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:07:17 **** Incremental Build of configuration Debug for project mathdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:07:17 **** Incremental Build of configuration Debug for project montiorwhiledummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:07:17 **** Incremental Build of configuration Debug for project multiarraydummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:07:17 **** Incremental Build of configuration Debug for project multidimenstionarraychallenge ****
+make all 
+make: Nothing to be done for 'all'.
+17:07:18 **** Incremental Build of configuration Debug for project placeholderdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:07:18 **** Incremental Build of configuration Debug for project returndummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:07:18 **** Incremental Build of configuration Debug for project returnvaldummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:07:18 **** Incremental Build of configuration Debug for project stringdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:07:19 **** Incremental Build of configuration Debug for project structdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:07:19 **** Incremental Build of configuration Debug for project timedummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:07:19 **** Incremental Build of configuration Debug for project vardummy ****
+make all 
+Building file: ../src/vardummy.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/vardummy.d" -MT"src/vardummy.d" -o "src/vardummy.o" "../src/vardummy.c"
+Finished building: ../src/vardummy.c
+ 
+Building target: vardummy
+Invoking: GCC C Linker
+gcc  -o "vardummy"  ./src/vardummy.o   
+Finished building target: vardummy
+ 
+17:07:27 **** Incremental Build of configuration Debug for project argsdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:07:28 **** Incremental Build of configuration Debug for project arraydummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:07:28 **** Incremental Build of configuration Debug for project constantdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:07:28 **** Incremental Build of configuration Debug for project dummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:07:28 **** Incremental Build of configuration Debug for project dummy2 ****
+make all 
+make: Nothing to be done for 'all'.
+17:07:28 **** Incremental Build of configuration Debug for project flowdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:07:29 **** Incremental Build of configuration Debug for project fordummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:07:29 **** Incremental Build of configuration Debug for project funcchallenge ****
+make all 
+make: Nothing to be done for 'all'.
+17:07:29 **** Incremental Build of configuration Debug for project functiondummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:07:29 **** Incremental Build of configuration Debug for project logicaloperatorsdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:07:29 **** Incremental Build of configuration Debug for project mathdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:07:30 **** Incremental Build of configuration Debug for project montiorwhiledummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:07:30 **** Incremental Build of configuration Debug for project multiarraydummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:07:30 **** Incremental Build of configuration Debug for project multidimenstionarraychallenge ****
+make all 
+make: Nothing to be done for 'all'.
+17:07:30 **** Incremental Build of configuration Debug for project placeholderdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:07:30 **** Incremental Build of configuration Debug for project returndummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:07:31 **** Incremental Build of configuration Debug for project returnvaldummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:07:31 **** Incremental Build of configuration Debug for project stringdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:07:31 **** Incremental Build of configuration Debug for project structdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:07:31 **** Incremental Build of configuration Debug for project timedummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:07:31 **** Incremental Build of configuration Debug for project vardummy ****
+make all 
+Building file: ../src/vardummy.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/vardummy.d" -MT"src/vardummy.d" -o "src/vardummy.o" "../src/vardummy.c"
+Finished building: ../src/vardummy.c
+ 
+Building target: vardummy
+Invoking: GCC C Linker
+gcc  -o "vardummy"  ./src/vardummy.o   
+Finished building target: vardummy
+ 
+17:07:32 **** Incremental Build of configuration Debug for project vardummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:08:04 **** Incremental Build of configuration Debug for project argsdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:08:04 **** Incremental Build of configuration Debug for project arraydummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:08:04 **** Incremental Build of configuration Debug for project constantdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:08:04 **** Incremental Build of configuration Debug for project dummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:08:04 **** Incremental Build of configuration Debug for project dummy2 ****
+make all 
+make: Nothing to be done for 'all'.
+17:08:05 **** Incremental Build of configuration Debug for project flowdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:08:05 **** Incremental Build of configuration Debug for project fordummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:08:05 **** Incremental Build of configuration Debug for project funcchallenge ****
+make all 
+make: Nothing to be done for 'all'.
+17:08:05 **** Incremental Build of configuration Debug for project functiondummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:08:05 **** Incremental Build of configuration Debug for project logicaloperatorsdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:08:06 **** Incremental Build of configuration Debug for project mathdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:08:06 **** Incremental Build of configuration Debug for project montiorwhiledummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:08:06 **** Incremental Build of configuration Debug for project multiarraydummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:08:06 **** Incremental Build of configuration Debug for project multidimenstionarraychallenge ****
+make all 
+make: Nothing to be done for 'all'.
+17:08:06 **** Incremental Build of configuration Debug for project placeholderdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:08:06 **** Incremental Build of configuration Debug for project returndummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:08:07 **** Incremental Build of configuration Debug for project returnvaldummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:08:07 **** Incremental Build of configuration Debug for project stringdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:08:07 **** Incremental Build of configuration Debug for project structdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:08:07 **** Incremental Build of configuration Debug for project timedummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:08:07 **** Incremental Build of configuration Debug for project vardummy ****
+make all 
+Building file: ../src/vardummy.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/vardummy.d" -MT"src/vardummy.d" -o "src/vardummy.o" "../src/vardummy.c"
+Finished building: ../src/vardummy.c
+ 
+Building target: vardummy
+Invoking: GCC C Linker
+gcc  -o "vardummy"  ./src/vardummy.o   
+Finished building target: vardummy
+ 
+17:08:08 **** Incremental Build of configuration Debug for project vardummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:08:32 **** Incremental Build of configuration Debug for project argsdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:08:32 **** Incremental Build of configuration Debug for project arraydummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:08:32 **** Incremental Build of configuration Debug for project constantdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:08:32 **** Incremental Build of configuration Debug for project dummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:08:32 **** Incremental Build of configuration Debug for project dummy2 ****
+make all 
+make: Nothing to be done for 'all'.
+17:08:33 **** Incremental Build of configuration Debug for project flowdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:08:33 **** Incremental Build of configuration Debug for project fordummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:08:33 **** Incremental Build of configuration Debug for project funcchallenge ****
+make all 
+make: Nothing to be done for 'all'.
+17:08:33 **** Incremental Build of configuration Debug for project functiondummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:08:33 **** Incremental Build of configuration Debug for project logicaloperatorsdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:08:34 **** Incremental Build of configuration Debug for project mathdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:08:34 **** Incremental Build of configuration Debug for project montiorwhiledummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:08:34 **** Incremental Build of configuration Debug for project multiarraydummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:08:34 **** Incremental Build of configuration Debug for project multidimenstionarraychallenge ****
+make all 
+make: Nothing to be done for 'all'.
+17:08:34 **** Incremental Build of configuration Debug for project placeholderdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:08:35 **** Incremental Build of configuration Debug for project returndummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:08:35 **** Incremental Build of configuration Debug for project returnvaldummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:08:35 **** Incremental Build of configuration Debug for project stringdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:08:35 **** Incremental Build of configuration Debug for project structdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:08:35 **** Incremental Build of configuration Debug for project timedummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:08:36 **** Incremental Build of configuration Debug for project vardummy ****
+make all 
+Building file: ../src/vardummy.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/vardummy.d" -MT"src/vardummy.d" -o "src/vardummy.o" "../src/vardummy.c"
+Finished building: ../src/vardummy.c
+ 
+Building target: vardummy
+Invoking: GCC C Linker
+gcc  -o "vardummy"  ./src/vardummy.o   
+Finished building target: vardummy
+ 
+17:08:36 **** Incremental Build of configuration Debug for project vardummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:09:21 **** Incremental Build of configuration Debug for project argsdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:09:21 **** Incremental Build of configuration Debug for project arraydummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:09:21 **** Incremental Build of configuration Debug for project constantdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:09:21 **** Incremental Build of configuration Debug for project dummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:09:21 **** Incremental Build of configuration Debug for project dummy2 ****
+make all 
+make: Nothing to be done for 'all'.
+17:09:22 **** Incremental Build of configuration Debug for project flowdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:09:22 **** Incremental Build of configuration Debug for project fordummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:09:22 **** Incremental Build of configuration Debug for project funcchallenge ****
+make all 
+make: Nothing to be done for 'all'.
+17:09:22 **** Incremental Build of configuration Debug for project functiondummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:09:22 **** Incremental Build of configuration Debug for project logicaloperatorsdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:09:23 **** Incremental Build of configuration Debug for project mathdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:09:23 **** Incremental Build of configuration Debug for project montiorwhiledummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:09:23 **** Incremental Build of configuration Debug for project multiarraydummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:09:23 **** Incremental Build of configuration Debug for project multidimenstionarraychallenge ****
+make all 
+make: Nothing to be done for 'all'.
+17:09:24 **** Incremental Build of configuration Debug for project placeholderdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:09:24 **** Incremental Build of configuration Debug for project returndummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:09:24 **** Incremental Build of configuration Debug for project returnvaldummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:09:24 **** Incremental Build of configuration Debug for project stringdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:09:24 **** Incremental Build of configuration Debug for project structdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:09:25 **** Incremental Build of configuration Debug for project timedummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:09:25 **** Incremental Build of configuration Debug for project vardummy ****
+make all 
+Building file: ../src/vardummy.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/vardummy.d" -MT"src/vardummy.d" -o "src/vardummy.o" "../src/vardummy.c"
+Finished building: ../src/vardummy.c
+ 
+Building target: vardummy
+Invoking: GCC C Linker
+gcc  -o "vardummy"  ./src/vardummy.o   
+Finished building target: vardummy
+ 
+17:09:26 **** Incremental Build of configuration Debug for project vardummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:05 **** Incremental Build of configuration Debug for project argsdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:06 **** Incremental Build of configuration Debug for project arraydummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:06 **** Incremental Build of configuration Debug for project constantdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:06 **** Incremental Build of configuration Debug for project dummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:06 **** Incremental Build of configuration Debug for project dummy2 ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:06 **** Incremental Build of configuration Debug for project flowdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:07 **** Incremental Build of configuration Debug for project fordummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:07 **** Incremental Build of configuration Debug for project funcchallenge ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:07 **** Incremental Build of configuration Debug for project functiondummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:07 **** Incremental Build of configuration Debug for project logicaloperatorsdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:08 **** Incremental Build of configuration Debug for project mathdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:08 **** Incremental Build of configuration Debug for project montiorwhiledummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:08 **** Incremental Build of configuration Debug for project multiarraydummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:08 **** Incremental Build of configuration Debug for project multidimenstionarraychallenge ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:08 **** Incremental Build of configuration Debug for project placeholderdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:09 **** Incremental Build of configuration Debug for project returndummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:09 **** Incremental Build of configuration Debug for project returnvaldummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:09 **** Incremental Build of configuration Debug for project stringdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:09 **** Incremental Build of configuration Debug for project structdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:09 **** Incremental Build of configuration Debug for project timedummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:10 **** Incremental Build of configuration Debug for project vardummy ****
+make all 
+Building file: ../src/vardummy.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/vardummy.d" -MT"src/vardummy.d" -o "src/vardummy.o" "../src/vardummy.c"
+Finished building: ../src/vardummy.c
+ 
+Building target: vardummy
+Invoking: GCC C Linker
+gcc  -o "vardummy"  ./src/vardummy.o   
+Finished building target: vardummy
+ 
+17:11:16 **** Incremental Build of configuration Debug for project argsdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:17 **** Incremental Build of configuration Debug for project arraydummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:17 **** Incremental Build of configuration Debug for project constantdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:17 **** Incremental Build of configuration Debug for project dummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:17 **** Incremental Build of configuration Debug for project dummy2 ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:17 **** Incremental Build of configuration Debug for project flowdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:18 **** Incremental Build of configuration Debug for project fordummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:18 **** Incremental Build of configuration Debug for project funcchallenge ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:18 **** Incremental Build of configuration Debug for project functiondummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:18 **** Incremental Build of configuration Debug for project logicaloperatorsdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:19 **** Incremental Build of configuration Debug for project mathdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:19 **** Incremental Build of configuration Debug for project montiorwhiledummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:19 **** Incremental Build of configuration Debug for project multiarraydummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:19 **** Incremental Build of configuration Debug for project multidimenstionarraychallenge ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:19 **** Incremental Build of configuration Debug for project placeholderdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:20 **** Incremental Build of configuration Debug for project returndummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:20 **** Incremental Build of configuration Debug for project returnvaldummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:20 **** Incremental Build of configuration Debug for project stringdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:20 **** Incremental Build of configuration Debug for project structdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:20 **** Incremental Build of configuration Debug for project timedummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:20 **** Incremental Build of configuration Debug for project vardummy ****
+make all 
+Building file: ../src/vardummy.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/vardummy.d" -MT"src/vardummy.d" -o "src/vardummy.o" "../src/vardummy.c"
+Finished building: ../src/vardummy.c
+ 
+Building target: vardummy
+Invoking: GCC C Linker
+gcc  -o "vardummy"  ./src/vardummy.o   
+Finished building target: vardummy
+ 
+17:11:23 **** Incremental Build of configuration Debug for project vardummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:48 **** Incremental Build of configuration Debug for project argsdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:48 **** Incremental Build of configuration Debug for project arraydummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:48 **** Incremental Build of configuration Debug for project constantdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:49 **** Incremental Build of configuration Debug for project dummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:49 **** Incremental Build of configuration Debug for project dummy2 ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:49 **** Incremental Build of configuration Debug for project flowdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:49 **** Incremental Build of configuration Debug for project fordummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:49 **** Incremental Build of configuration Debug for project funcchallenge ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:50 **** Incremental Build of configuration Debug for project functiondummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:50 **** Incremental Build of configuration Debug for project logicaloperatorsdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:50 **** Incremental Build of configuration Debug for project mathdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:50 **** Incremental Build of configuration Debug for project montiorwhiledummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:50 **** Incremental Build of configuration Debug for project multiarraydummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:51 **** Incremental Build of configuration Debug for project multidimenstionarraychallenge ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:51 **** Incremental Build of configuration Debug for project placeholderdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:51 **** Incremental Build of configuration Debug for project returndummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:51 **** Incremental Build of configuration Debug for project returnvaldummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:51 **** Incremental Build of configuration Debug for project stringdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:52 **** Incremental Build of configuration Debug for project structdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:52 **** Incremental Build of configuration Debug for project timedummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:52 **** Incremental Build of configuration Debug for project vardummy ****
+make all 
+Building file: ../src/vardummy.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/vardummy.d" -MT"src/vardummy.d" -o "src/vardummy.o" "../src/vardummy.c"
+Finished building: ../src/vardummy.c
+ 
+Building target: vardummy
+Invoking: GCC C Linker
+gcc  -o "vardummy"  ./src/vardummy.o   
+Finished building target: vardummy
+ 
+17:12:00 **** Incremental Build of configuration Debug for project vardummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:12:11 **** Incremental Build of configuration Debug for project argsdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:12:11 **** Incremental Build of configuration Debug for project arraydummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:12:11 **** Incremental Build of configuration Debug for project constantdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:12:11 **** Incremental Build of configuration Debug for project dummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:12:11 **** Incremental Build of configuration Debug for project dummy2 ****
+make all 
+make: Nothing to be done for 'all'.
+17:12:12 **** Incremental Build of configuration Debug for project flowdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:12:12 **** Incremental Build of configuration Debug for project fordummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:12:12 **** Incremental Build of configuration Debug for project funcchallenge ****
+make all 
+make: Nothing to be done for 'all'.
+17:12:12 **** Incremental Build of configuration Debug for project functiondummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:12:12 **** Incremental Build of configuration Debug for project logicaloperatorsdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:12:13 **** Incremental Build of configuration Debug for project mathdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:12:13 **** Incremental Build of configuration Debug for project montiorwhiledummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:12:13 **** Incremental Build of configuration Debug for project multiarraydummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:12:13 **** Incremental Build of configuration Debug for project multidimenstionarraychallenge ****
+make all 
+make: Nothing to be done for 'all'.
+17:12:14 **** Incremental Build of configuration Debug for project placeholderdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:12:14 **** Incremental Build of configuration Debug for project returndummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:12:14 **** Incremental Build of configuration Debug for project returnvaldummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:12:14 **** Incremental Build of configuration Debug for project stringdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:12:14 **** Incremental Build of configuration Debug for project structdummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:12:15 **** Incremental Build of configuration Debug for project timedummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:12:15 **** Incremental Build of configuration Debug for project vardummy ****
+make all 
+make: Nothing to be done for 'all'.
+17:12:16 **** Incremental Build of configuration Debug for project vardummy ****
+make all 
+make: Nothing to be done for 'all'.

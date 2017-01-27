@@ -1,6 +1,6 @@
-17:00:19 **** Incremental Build of configuration Debug for project multidimenstionarraychallenge ****
+17:12:13 **** Incremental Build of configuration Debug for project multidimenstionarraychallenge ****
 make all 
 make: Nothing to be done for 'all'.
 
-17:00:19 Build Finished (took 139ms)
+17:12:14 Build Finished (took 125ms)
 

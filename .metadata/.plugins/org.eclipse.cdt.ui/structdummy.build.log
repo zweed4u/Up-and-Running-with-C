@@ -1,6 +1,6 @@
-17:00:20 **** Incremental Build of configuration Debug for project structdummy ****
+17:12:14 **** Incremental Build of configuration Debug for project structdummy ****
 make all 
 make: Nothing to be done for 'all'.
 
-17:00:20 Build Finished (took 127ms)
+17:12:15 Build Finished (took 126ms)
 
