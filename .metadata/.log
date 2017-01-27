@@ -330,3 +330,34 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64
 
 !ENTRY org.eclipse.cdt.core 1 0 2017-01-27 15:46:21.770
 !MESSAGE Indexed 'arraydummy' (1 sources, 37 headers) in 0.607 sec: 1,041 declarations; 1,879 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-01-27 16:10:42.604
+!MESSAGE Indexed 'multiarraydummy' (1 sources, 37 headers) in 0.642 sec: 1,041 declarations; 1,879 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2017-01-27 16:23:37.554
+!MESSAGE Error with command: gdb --version
+!STACK 0
+java.io.IOException: Cannot run program "gdb": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:349)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:91)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:120)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:71)
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.getGDBVersion(LaunchUtils.java:311)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.getGDBVersion(GdbLaunchDelegate.java:312)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:154)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-01-27 16:28:41.321
+!MESSAGE Indexed 'multidimenstionarraychallenge' (1 sources, 37 headers) in 0.45 sec: 1,041 declarations; 1,879 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-01-27 16:31:25.972
+!MESSAGE Indexed 'structdummy' (1 sources, 37 headers) in 0.533 sec: 1,041 declarations; 1,879 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-01-27 16:51:16.556
+!MESSAGE Indexed 'timedummy' (1 sources, 37 headers) in 0.423 sec: 1,041 declarations; 1,879 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)

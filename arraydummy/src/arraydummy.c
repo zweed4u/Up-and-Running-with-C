@@ -34,6 +34,21 @@ int main(void) {
 
 
 
+	//char text[]="I am a string!";
+	//same as ...
+	char text[]={'I',' ','a','m',' ','a',' ','s','t','r','i','n','g','!','\0'};//DONT FORGET NULL TERMINATOR
+	puts(text);
+	putchar('\n');
+
+
+	char hello[]="Greetings human!\n";
+	int n;
+	n=0;
+	while(hello[n]){//same as hello[n]!='\0' implied condition NULL evaluates to the false condition
+		putchar(hello[n]);
+		n++;
+	}
+
 	int calories[MEALS];
 	int xx,total;
 	total=0;
