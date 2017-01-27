@@ -1,0 +1,22 @@
+/*
+ ============================================================================
+ Name        : funcchallenge.c
+ Author      : Zachary Weeden
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+void evaluate(int x);
+
+int main(void) {
+	int i;
+	printf("Type an integer value: ");
+	scanf("%d",&i);
+	evaluate(i);
+
+	return(0);
+}

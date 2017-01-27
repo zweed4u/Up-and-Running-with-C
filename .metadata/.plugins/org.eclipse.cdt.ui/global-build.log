@@ -1,3298 +1,964 @@
-15:58:23 **** Clean-only build of configuration Debug for project dummy ****
-make clean 
-rm -rf  ./src/dummy.o  ./src/dummy.d  dummy
- 
-15:58:26 **** Build of configuration Debug for project dummy ****
-make all 
-Building file: ../src/dummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-Finished building: ../src/dummy.c
- 
-Building target: dummy
-Invoking: GCC C Linker
-gcc  -o "dummy"  ./src/dummy.o   
-Finished building target: dummy
- 
-15:58:44 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-Building file: ../src/dummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-Finished building: ../src/dummy.c
- 
-Building target: dummy
-Invoking: GCC C Linker
-gcc  -o "dummy"  ./src/dummy.o   
-Finished building target: dummy
- 
-15:58:57 **** Incremental Build of configuration Debug for project dummy ****
+20:34:44 **** Incremental Build of configuration Debug for project functiondummy ****
 make all 
 make: Nothing to be done for 'all'.
-15:59:46 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-Building file: ../src/dummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-Finished building: ../src/dummy.c
- 
-Building target: dummy
-Invoking: GCC C Linker
-gcc  -o "dummy"  ./src/dummy.o   
-Finished building target: dummy
- 
-15:59:48 **** Incremental Build of configuration Debug for project dummy ****
+20:35:02 **** Incremental Build of configuration Debug for project dummy ****
 make all 
 make: Nothing to be done for 'all'.
-16:00:11 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-Building file: ../src/dummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-Finished building: ../src/dummy.c
- 
-Building target: dummy
-Invoking: GCC C Linker
-gcc  -o "dummy"  ./src/dummy.o   
-Finished building target: dummy
- 
-16:00:13 **** Incremental Build of configuration Debug for project dummy ****
+20:35:02 **** Incremental Build of configuration Debug for project dummy2 ****
 make all 
 make: Nothing to be done for 'all'.
-16:01:54 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-Building file: ../src/dummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-../src/dummy.c: In function ‘main’:
-../src/dummy.c:23:2: error: expected ‘;’ before ‘return’
-  return(0);
-  ^
-src/subdir.mk:18: recipe for target 'src/dummy.o' failed
-make: *** [src/dummy.o] Error 1
-16:01:55 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-Building file: ../src/dummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-../src/dummy.c: In function ‘main’:
-../src/dummy.c:23:2: error: expected ‘;’ before ‘return’
-  return(0);
-  ^
-src/subdir.mk:18: recipe for target 'src/dummy.o' failed
-make: *** [src/dummy.o] Error 1
-16:02:00 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-Building file: ../src/dummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-../src/dummy.c: In function ‘main’:
-../src/dummy.c:23:2: error: expected ‘;’ before ‘return’
-  return(0);
-  ^
-src/subdir.mk:18: recipe for target 'src/dummy.o' failed
-make: *** [src/dummy.o] Error 1
-16:02:02 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-Building file: ../src/dummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-Finished building: ../src/dummy.c
- 
-Building target: dummy
-Invoking: GCC C Linker
-gcc  -o "dummy"  ./src/dummy.o   
-Finished building target: dummy
- 
-16:02:04 **** Incremental Build of configuration Debug for project dummy ****
+20:35:03 **** Incremental Build of configuration Debug for project flowdummy ****
 make all 
 make: Nothing to be done for 'all'.
-16:02:13 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-Building file: ../src/dummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-Finished building: ../src/dummy.c
- 
-Building target: dummy
-Invoking: GCC C Linker
-gcc  -o "dummy"  ./src/dummy.o   
-Finished building target: dummy
- 
-16:02:15 **** Incremental Build of configuration Debug for project dummy ****
+20:35:03 **** Incremental Build of configuration Debug for project fordummy ****
 make all 
 make: Nothing to be done for 'all'.
-16:02:29 **** Incremental Build of configuration Debug for project dummy ****
+20:35:03 **** Incremental Build of configuration Debug for project functiondummy ****
 make all 
-Building file: ../src/dummy.c
+Building file: ../src/functiondummy.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-Finished building: ../src/dummy.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/functiondummy.d" -MT"src/functiondummy.d" -o "src/functiondummy.o" "../src/functiondummy.c"
+Finished building: ../src/functiondummy.c
  
-Building target: dummy
+Building target: functiondummy
 Invoking: GCC C Linker
-gcc  -o "dummy"  ./src/dummy.o   
-Finished building target: dummy
+gcc  -o "functiondummy"  ./src/functiondummy.o   
+Finished building target: functiondummy
  
-16:02:32 **** Incremental Build of configuration Debug for project dummy ****
+20:35:03 **** Incremental Build of configuration Debug for project mathdummy ****
 make all 
 make: Nothing to be done for 'all'.
-16:03:07 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-Building file: ../src/dummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-Finished building: ../src/dummy.c
- 
-Building target: dummy
-Invoking: GCC C Linker
-gcc  -o "dummy"  ./src/dummy.o   
-Finished building target: dummy
- 
-16:03:08 **** Incremental Build of configuration Debug for project dummy ****
+20:35:04 **** Incremental Build of configuration Debug for project montiorwhiledummy ****
 make all 
 make: Nothing to be done for 'all'.
-16:03:20 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-Building file: ../src/dummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-Finished building: ../src/dummy.c
- 
-Building target: dummy
-Invoking: GCC C Linker
-gcc  -o "dummy"  ./src/dummy.o   
-Finished building target: dummy
- 
-16:03:21 **** Incremental Build of configuration Debug for project dummy ****
+20:35:05 **** Incremental Build of configuration Debug for project functiondummy ****
 make all 
 make: Nothing to be done for 'all'.
-16:03:54 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-Building file: ../src/dummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-../src/dummy.c: In function ‘main’:
-../src/dummy.c:23:2: error: expected ‘;’ before ‘return’
-  return(0);
-  ^
-src/subdir.mk:18: recipe for target 'src/dummy.o' failed
-make: *** [src/dummy.o] Error 1
-16:03:55 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-Building file: ../src/dummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-../src/dummy.c: In function ‘main’:
-../src/dummy.c:23:2: error: expected ‘;’ before ‘return’
-  return(0);
-  ^
-src/subdir.mk:18: recipe for target 'src/dummy.o' failed
-make: *** [src/dummy.o] Error 1
-16:04:03 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-Building file: ../src/dummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-Finished building: ../src/dummy.c
- 
-Building target: dummy
-Invoking: GCC C Linker
-gcc  -o "dummy"  ./src/dummy.o   
-Finished building target: dummy
- 
-16:04:05 **** Incremental Build of configuration Debug for project dummy ****
+20:35:07 **** Incremental Build of configuration Debug for project functiondummy ****
 make all 
 make: Nothing to be done for 'all'.
-16:04:38 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-Building file: ../src/dummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-Finished building: ../src/dummy.c
- 
-Building target: dummy
-Invoking: GCC C Linker
-gcc  -o "dummy"  ./src/dummy.o   
-Finished building target: dummy
- 
-16:04:40 **** Incremental Build of configuration Debug for project dummy ****
+20:35:07 **** Incremental Build of configuration Debug for project functiondummy ****
 make all 
 make: Nothing to be done for 'all'.
-16:04:49 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-Building file: ../src/dummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-Finished building: ../src/dummy.c
- 
-Building target: dummy
-Invoking: GCC C Linker
-gcc  -o "dummy"  ./src/dummy.o   
-Finished building target: dummy
- 
-16:04:50 **** Incremental Build of configuration Debug for project dummy ****
+20:35:31 **** Incremental Build of configuration Debug for project functiondummy ****
 make all 
 make: Nothing to be done for 'all'.
-16:05:05 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-Building file: ../src/dummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-../src/dummy.c: In function ‘main’:
-../src/dummy.c:23:9: warning: zero-length gnu_printf format string [-Wformat-zero-length]
-  printf("");
-         ^
-Finished building: ../src/dummy.c
- 
-Building target: dummy
-Invoking: GCC C Linker
-gcc  -o "dummy"  ./src/dummy.o   
-Finished building target: dummy
- 
-16:05:07 **** Incremental Build of configuration Debug for project dummy ****
+20:35:34 **** Incremental Build of configuration Debug for project functiondummy ****
 make all 
 make: Nothing to be done for 'all'.
-16:05:14 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-Building file: ../src/dummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-Finished building: ../src/dummy.c
- 
-Building target: dummy
-Invoking: GCC C Linker
-gcc  -o "dummy"  ./src/dummy.o   
-Finished building target: dummy
- 
-16:05:15 **** Incremental Build of configuration Debug for project dummy ****
+20:35:34 **** Incremental Build of configuration Debug for project functiondummy ****
 make all 
 make: Nothing to be done for 'all'.
-16:05:51 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-Building file: ../src/dummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-Finished building: ../src/dummy.c
- 
-Building target: dummy
-Invoking: GCC C Linker
-gcc  -o "dummy"  ./src/dummy.o   
-Finished building target: dummy
- 
-16:05:52 **** Incremental Build of configuration Debug for project dummy ****
+20:35:35 **** Incremental Build of configuration Debug for project functiondummy ****
 make all 
 make: Nothing to be done for 'all'.
-16:07:29 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-Building file: ../src/dummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-Finished building: ../src/dummy.c
- 
-Building target: dummy
-Invoking: GCC C Linker
-gcc  -o "dummy"  ./src/dummy.o   
-Finished building target: dummy
- 
-16:07:30 **** Incremental Build of configuration Debug for project dummy ****
+20:35:50 **** Incremental Build of configuration Debug for project dummy ****
 make all 
 make: Nothing to be done for 'all'.
-16:08:54 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-Building file: ../src/dummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-Finished building: ../src/dummy.c
- 
-Building target: dummy
-Invoking: GCC C Linker
-gcc  -o "dummy"  ./src/dummy.o   
-Finished building target: dummy
- 
-16:08:57 **** Incremental Build of configuration Debug for project dummy ****
+20:35:50 **** Incremental Build of configuration Debug for project dummy2 ****
 make all 
 make: Nothing to be done for 'all'.
-16:09:50 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-Building file: ../src/dummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-Finished building: ../src/dummy.c
- 
-Building target: dummy
-Invoking: GCC C Linker
-gcc  -o "dummy"  ./src/dummy.o   
-Finished building target: dummy
- 
-16:09:52 **** Incremental Build of configuration Debug for project dummy ****
+20:35:50 **** Incremental Build of configuration Debug for project flowdummy ****
 make all 
 make: Nothing to be done for 'all'.
-16:10:02 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-Building file: ../src/dummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-Finished building: ../src/dummy.c
- 
-Building target: dummy
-Invoking: GCC C Linker
-gcc  -o "dummy"  ./src/dummy.o   
-Finished building target: dummy
- 
-16:10:03 **** Incremental Build of configuration Debug for project dummy ****
+20:35:51 **** Incremental Build of configuration Debug for project fordummy ****
 make all 
 make: Nothing to be done for 'all'.
-16:10:38 **** Incremental Build of configuration Debug for project dummy ****
+20:35:51 **** Incremental Build of configuration Debug for project functiondummy ****
 make all 
-Building file: ../src/dummy.c
+Building file: ../src/functiondummy.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-Finished building: ../src/dummy.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/functiondummy.d" -MT"src/functiondummy.d" -o "src/functiondummy.o" "../src/functiondummy.c"
+Finished building: ../src/functiondummy.c
  
-Building target: dummy
+Building target: functiondummy
 Invoking: GCC C Linker
-gcc  -o "dummy"  ./src/dummy.o   
-Finished building target: dummy
+gcc  -o "functiondummy"  ./src/functiondummy.o   
+Finished building target: functiondummy
  
-16:10:40 **** Incremental Build of configuration Debug for project dummy ****
+20:35:51 **** Incremental Build of configuration Debug for project mathdummy ****
 make all 
 make: Nothing to be done for 'all'.
-16:11:11 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-Building file: ../src/dummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-Finished building: ../src/dummy.c
- 
-Building target: dummy
-Invoking: GCC C Linker
-gcc  -o "dummy"  ./src/dummy.o   
-Finished building target: dummy
- 
-16:11:13 **** Incremental Build of configuration Debug for project dummy ****
+20:35:52 **** Incremental Build of configuration Debug for project montiorwhiledummy ****
 make all 
 make: Nothing to be done for 'all'.
-16:11:51 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-Building file: ../src/dummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-Finished building: ../src/dummy.c
- 
-Building target: dummy
-Invoking: GCC C Linker
-gcc  -o "dummy"  ./src/dummy.o   
-Finished building target: dummy
- 
-16:11:52 **** Incremental Build of configuration Debug for project dummy ****
+20:35:54 **** Incremental Build of configuration Debug for project functiondummy ****
 make all 
 make: Nothing to be done for 'all'.
-16:13:12 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-Building file: ../src/dummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-Finished building: ../src/dummy.c
- 
-Building target: dummy
-Invoking: GCC C Linker
-gcc  -o "dummy"  ./src/dummy.o   
-Finished building target: dummy
- 
-16:13:14 **** Incremental Build of configuration Debug for project dummy ****
+20:36:56 **** Incremental Build of configuration Debug for project functiondummy ****
 make all 
 make: Nothing to be done for 'all'.
-16:13:40 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-Building file: ../src/dummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-../src/dummy.c: In function ‘main’:
-../src/dummy.c:41:9: warning: format ‘%c’ expects argument of type ‘int’, but argument 2 has type ‘char *’ [-Wformat=]
-  printf("You are a %c %s\n","C" "programmer");
-         ^
-../src/dummy.c:41:9: warning: format ‘%s’ expects a matching ‘char *’ argument [-Wformat=]
-Finished building: ../src/dummy.c
- 
-Building target: dummy
-Invoking: GCC C Linker
-gcc  -o "dummy"  ./src/dummy.o   
-Finished building target: dummy
- 
-16:13:42 **** Incremental Build of configuration Debug for project dummy ****
+20:37:09 **** Incremental Build of configuration Debug for project functiondummy ****
 make all 
 make: Nothing to be done for 'all'.
-16:13:58 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-Building file: ../src/dummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-../src/dummy.c: In function ‘main’:
-../src/dummy.c:41:33: error: expected ‘)’ before string constant
-  printf("You are a %c %s\n",'C' "programmer");
-                                 ^
-../src/dummy.c:41:9: warning: format ‘%s’ expects a matching ‘char *’ argument [-Wformat=]
-  printf("You are a %c %s\n",'C' "programmer");
-         ^
-src/subdir.mk:18: recipe for target 'src/dummy.o' failed
-make: *** [src/dummy.o] Error 1
-16:14:10 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-Building file: ../src/dummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-Finished building: ../src/dummy.c
- 
-Building target: dummy
-Invoking: GCC C Linker
-gcc  -o "dummy"  ./src/dummy.o   
-Finished building target: dummy
- 
-16:14:11 **** Incremental Build of configuration Debug for project dummy ****
+20:38:18 **** Incremental Build of configuration Debug for project dummy ****
 make all 
 make: Nothing to be done for 'all'.
-16:14:53 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-Building file: ../src/dummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-../src/dummy.c: In function ‘main’:
-../src/dummy.c:42:9: warning: ' ' flag used with ‘%o’ gnu_printf format [-Wformat=]
-  printf("I got a %d% on my exam\n",98);
-         ^
-../src/dummy.c:42:9: warning: format ‘%o’ expects a matching ‘unsigned int’ argument [-Wformat=]
-Finished building: ../src/dummy.c
- 
-Building target: dummy
-Invoking: GCC C Linker
-gcc  -o "dummy"  ./src/dummy.o   
-Finished building target: dummy
- 
-16:14:55 **** Incremental Build of configuration Debug for project dummy ****
+20:38:18 **** Incremental Build of configuration Debug for project dummy2 ****
 make all 
 make: Nothing to be done for 'all'.
-16:15:10 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-Building file: ../src/dummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-Finished building: ../src/dummy.c
- 
-Building target: dummy
-Invoking: GCC C Linker
-gcc  -o "dummy"  ./src/dummy.o   
-Finished building target: dummy
- 
-16:15:11 **** Incremental Build of configuration Debug for project dummy ****
+20:38:18 **** Incremental Build of configuration Debug for project flowdummy ****
 make all 
 make: Nothing to be done for 'all'.
-16:18:41 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-Building file: ../src/dummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-Finished building: ../src/dummy.c
- 
-Building target: dummy
-Invoking: GCC C Linker
-gcc  -o "dummy"  ./src/dummy.o   
-Finished building target: dummy
- 
-16:19:10 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-Building file: ../src/dummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-Finished building: ../src/dummy.c
- 
-Building target: dummy
-Invoking: GCC C Linker
-gcc  -o "dummy"  ./src/dummy.o   
-Finished building target: dummy
- 
-16:19:12 **** Incremental Build of configuration Debug for project dummy ****
+20:38:18 **** Incremental Build of configuration Debug for project fordummy ****
 make all 
 make: Nothing to be done for 'all'.
-16:19:21 **** Incremental Build of configuration Debug for project dummy ****
+20:38:18 **** Incremental Build of configuration Debug for project functiondummy ****
 make all 
-Building file: ../src/dummy.c
+Building file: ../src/functiondummy.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-Finished building: ../src/dummy.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/functiondummy.d" -MT"src/functiondummy.d" -o "src/functiondummy.o" "../src/functiondummy.c"
+Finished building: ../src/functiondummy.c
  
-Building target: dummy
+Building target: functiondummy
 Invoking: GCC C Linker
-gcc  -o "dummy"  ./src/dummy.o   
-Finished building target: dummy
+gcc  -o "functiondummy"  ./src/functiondummy.o   
+Finished building target: functiondummy
  
-16:19:23 **** Incremental Build of configuration Debug for project dummy ****
+20:38:19 **** Incremental Build of configuration Debug for project mathdummy ****
 make all 
 make: Nothing to be done for 'all'.
-16:19:49 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-Building file: ../src/dummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-Finished building: ../src/dummy.c
- 
-Building target: dummy
-Invoking: GCC C Linker
-gcc  -o "dummy"  ./src/dummy.o   
-Finished building target: dummy
- 
-16:19:50 **** Incremental Build of configuration Debug for project dummy ****
+20:38:19 **** Incremental Build of configuration Debug for project montiorwhiledummy ****
 make all 
 make: Nothing to be done for 'all'.
-16:20:07 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-Building file: ../src/dummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-Finished building: ../src/dummy.c
- 
-Building target: dummy
-Invoking: GCC C Linker
-gcc  -o "dummy"  ./src/dummy.o   
-Finished building target: dummy
- 
-16:20:09 **** Incremental Build of configuration Debug for project dummy ****
+20:38:20 **** Incremental Build of configuration Debug for project functiondummy ****
 make all 
 make: Nothing to be done for 'all'.
-16:20:22 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-Building file: ../src/dummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-Finished building: ../src/dummy.c
- 
-Building target: dummy
-Invoking: GCC C Linker
-gcc  -o "dummy"  ./src/dummy.o   
-Finished building target: dummy
- 
-16:20:24 **** Incremental Build of configuration Debug for project dummy ****
+20:40:41 **** Incremental Build of configuration Debug for project dummy ****
 make all 
 make: Nothing to be done for 'all'.
-16:21:22 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-Building file: ../src/dummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-Finished building: ../src/dummy.c
- 
-Building target: dummy
-Invoking: GCC C Linker
-gcc  -o "dummy"  ./src/dummy.o   
-Finished building target: dummy
- 
-16:21:31 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-Building file: ../src/dummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-Finished building: ../src/dummy.c
- 
-Building target: dummy
-Invoking: GCC C Linker
-gcc  -o "dummy"  ./src/dummy.o   
-Finished building target: dummy
- 
-16:21:33 **** Incremental Build of configuration Debug for project dummy ****
+20:40:41 **** Incremental Build of configuration Debug for project dummy2 ****
 make all 
 make: Nothing to be done for 'all'.
-16:23:06 **** Incremental Build of configuration Debug for project dummy ****
+20:40:41 **** Incremental Build of configuration Debug for project flowdummy ****
 make all 
-Building file: ../src/dummy.c
+make: Nothing to be done for 'all'.
+20:40:41 **** Incremental Build of configuration Debug for project fordummy ****
+make all 
+make: Nothing to be done for 'all'.
+20:40:42 **** Incremental Build of configuration Debug for project functiondummy ****
+make all 
+Building file: ../src/functiondummy.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-Finished building: ../src/dummy.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/functiondummy.d" -MT"src/functiondummy.d" -o "src/functiondummy.o" "../src/functiondummy.c"
+Finished building: ../src/functiondummy.c
  
-Building target: dummy
+Building target: functiondummy
 Invoking: GCC C Linker
-gcc  -o "dummy"  ./src/dummy.o   
-Finished building target: dummy
+gcc  -o "functiondummy"  ./src/functiondummy.o   
+Finished building target: functiondummy
  
-16:23:08 **** Incremental Build of configuration Debug for project dummy ****
+20:40:42 **** Incremental Build of configuration Debug for project mathdummy ****
 make all 
 make: Nothing to be done for 'all'.
-16:24:07 **** Incremental Build of configuration Debug for project dummy ****
+20:40:42 **** Incremental Build of configuration Debug for project montiorwhiledummy ****
 make all 
-Building file: ../src/dummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-../src/dummy.c: In function ‘main’:
-../src/dummy.c:58:2: error: expected ‘;’ before ‘return’
-  return(0);
-  ^
-src/subdir.mk:18: recipe for target 'src/dummy.o' failed
-make: *** [src/dummy.o] Error 1
-16:24:13 **** Incremental Build of configuration Debug for project dummy ****
+make: Nothing to be done for 'all'.
+20:40:43 **** Incremental Build of configuration Debug for project functiondummy ****
 make all 
-Building file: ../src/dummy.c
+make: Nothing to be done for 'all'.
+20:41:13 **** Incremental Build of configuration Debug for project dummy ****
+make all 
+make: Nothing to be done for 'all'.
+20:41:13 **** Incremental Build of configuration Debug for project dummy2 ****
+make all 
+make: Nothing to be done for 'all'.
+20:41:13 **** Incremental Build of configuration Debug for project flowdummy ****
+make all 
+make: Nothing to be done for 'all'.
+20:41:14 **** Incremental Build of configuration Debug for project fordummy ****
+make all 
+make: Nothing to be done for 'all'.
+20:41:14 **** Incremental Build of configuration Debug for project functiondummy ****
+make all 
+Building file: ../src/functiondummy.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-Finished building: ../src/dummy.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/functiondummy.d" -MT"src/functiondummy.d" -o "src/functiondummy.o" "../src/functiondummy.c"
+Finished building: ../src/functiondummy.c
  
-Building target: dummy
+Building target: functiondummy
 Invoking: GCC C Linker
-gcc  -o "dummy"  ./src/dummy.o   
-Finished building target: dummy
+gcc  -o "functiondummy"  ./src/functiondummy.o   
+Finished building target: functiondummy
  
-16:24:15 **** Incremental Build of configuration Debug for project dummy ****
+20:41:14 **** Incremental Build of configuration Debug for project mathdummy ****
 make all 
 make: Nothing to be done for 'all'.
-16:25:28 **** Incremental Build of configuration Debug for project dummy ****
+20:41:15 **** Incremental Build of configuration Debug for project montiorwhiledummy ****
 make all 
-Building file: ../src/dummy.c
+make: Nothing to be done for 'all'.
+20:42:41 **** Incremental Build of configuration Debug for project dummy ****
+make all 
+make: Nothing to be done for 'all'.
+20:42:42 **** Incremental Build of configuration Debug for project dummy2 ****
+make all 
+make: Nothing to be done for 'all'.
+20:42:42 **** Incremental Build of configuration Debug for project flowdummy ****
+make all 
+make: Nothing to be done for 'all'.
+20:42:42 **** Incremental Build of configuration Debug for project fordummy ****
+make all 
+make: Nothing to be done for 'all'.
+20:42:42 **** Incremental Build of configuration Debug for project functiondummy ****
+make all 
+Building file: ../src/functiondummy.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-Finished building: ../src/dummy.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/functiondummy.d" -MT"src/functiondummy.d" -o "src/functiondummy.o" "../src/functiondummy.c"
+Finished building: ../src/functiondummy.c
  
-Building target: dummy
+Building target: functiondummy
 Invoking: GCC C Linker
-gcc  -o "dummy"  ./src/dummy.o   
-Finished building target: dummy
+gcc  -o "functiondummy"  ./src/functiondummy.o   
+Finished building target: functiondummy
  
-16:25:31 **** Incremental Build of configuration Debug for project dummy ****
+20:42:43 **** Incremental Build of configuration Debug for project mathdummy ****
 make all 
 make: Nothing to be done for 'all'.
-16:25:37 **** Incremental Build of configuration Debug for project dummy ****
+20:42:43 **** Incremental Build of configuration Debug for project montiorwhiledummy ****
 make all 
-Building file: ../src/dummy.c
+make: Nothing to be done for 'all'.
+20:45:28 **** Build of configuration Debug for project argsdummy ****
+make all 
+Building file: ../src/argsdummy.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-Finished building: ../src/dummy.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/argsdummy.d" -MT"src/argsdummy.d" -o "src/argsdummy.o" "../src/argsdummy.c"
+Finished building: ../src/argsdummy.c
  
-Building target: dummy
+Building target: argsdummy
 Invoking: GCC C Linker
-gcc  -o "dummy"  ./src/dummy.o   
-Finished building target: dummy
+gcc  -o "argsdummy"  ./src/argsdummy.o   
+Finished building target: argsdummy
  
-16:25:38 **** Incremental Build of configuration Debug for project dummy ****
+20:45:29 **** Incremental Build of configuration Debug for project dummy ****
 make all 
 make: Nothing to be done for 'all'.
-16:26:50 **** Incremental Build of configuration Debug for project dummy ****
+20:45:29 **** Incremental Build of configuration Debug for project dummy2 ****
 make all 
-Building file: ../src/dummy.c
+make: Nothing to be done for 'all'.
+20:45:29 **** Incremental Build of configuration Debug for project flowdummy ****
+make all 
+make: Nothing to be done for 'all'.
+20:45:29 **** Incremental Build of configuration Debug for project fordummy ****
+make all 
+make: Nothing to be done for 'all'.
+20:45:30 **** Incremental Build of configuration Debug for project functiondummy ****
+make all 
+make: Nothing to be done for 'all'.
+20:45:30 **** Incremental Build of configuration Debug for project mathdummy ****
+make all 
+make: Nothing to be done for 'all'.
+20:45:30 **** Incremental Build of configuration Debug for project montiorwhiledummy ****
+make all 
+make: Nothing to be done for 'all'.
+20:45:32 **** Incremental Build of configuration Debug for project argsdummy ****
+make all 
+make: Nothing to be done for 'all'.
+20:46:17 **** Incremental Build of configuration Debug for project argsdummy ****
+make all 
+Building file: ../src/argsdummy.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-Finished building: ../src/dummy.c
- 
-Building target: dummy
-Invoking: GCC C Linker
-gcc  -o "dummy"  ./src/dummy.o   
-Finished building target: dummy
- 
-16:27:45 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-Building file: ../src/dummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-Finished building: ../src/dummy.c
- 
-Building target: dummy
-Invoking: GCC C Linker
-gcc  -o "dummy"  ./src/dummy.o   
-Finished building target: dummy
- 
-16:27:48 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-16:28:17 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-Building file: ../src/dummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-Finished building: ../src/dummy.c
- 
-Building target: dummy
-Invoking: GCC C Linker
-gcc  -o "dummy"  ./src/dummy.o   
-Finished building target: dummy
- 
-16:33:12 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-Building file: ../src/dummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-Finished building: ../src/dummy.c
- 
-Building target: dummy
-Invoking: GCC C Linker
-gcc  -o "dummy"  ./src/dummy.o   
-Finished building target: dummy
- 
-16:33:16 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-Building file: ../src/dummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-Finished building: ../src/dummy.c
- 
-Building target: dummy
-Invoking: GCC C Linker
-gcc  -o "dummy"  ./src/dummy.o   
-Finished building target: dummy
- 
-16:33:18 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-16:34:59 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-Building file: ../src/dummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-Finished building: ../src/dummy.c
- 
-Building target: dummy
-Invoking: GCC C Linker
-gcc  -o "dummy"  ./src/dummy.o   
-Finished building target: dummy
- 
-16:35:01 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-16:36:01 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-Building file: ../src/dummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-Finished building: ../src/dummy.c
- 
-Building target: dummy
-Invoking: GCC C Linker
-gcc  -o "dummy"  ./src/dummy.o   
-Finished building target: dummy
- 
-16:36:03 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-16:38:26 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-Building file: ../src/dummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-Finished building: ../src/dummy.c
- 
-Building target: dummy
-Invoking: GCC C Linker
-gcc  -o "dummy"  ./src/dummy.o   
-Finished building target: dummy
- 
-16:38:28 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-16:38:45 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-16:38:46 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-16:39:59 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-Building file: ../src/dummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-Finished building: ../src/dummy.c
- 
-Building target: dummy
-Invoking: GCC C Linker
-gcc  -o "dummy"  ./src/dummy.o   
-Finished building target: dummy
- 
-16:40:00 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-16:40:50 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-Building file: ../src/dummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-Finished building: ../src/dummy.c
- 
-Building target: dummy
-Invoking: GCC C Linker
-gcc  -o "dummy"  ./src/dummy.o   
-Finished building target: dummy
- 
-16:40:53 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-16:42:15 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-Building file: ../src/dummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-Finished building: ../src/dummy.c
- 
-Building target: dummy
-Invoking: GCC C Linker
-gcc  -o "dummy"  ./src/dummy.o   
-Finished building target: dummy
- 
-16:42:39 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-16:43:28 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-Building file: ../src/dummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-Finished building: ../src/dummy.c
- 
-Building target: dummy
-Invoking: GCC C Linker
-gcc  -o "dummy"  ./src/dummy.o   
-Finished building target: dummy
- 
-16:45:59 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-Building file: ../src/dummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-Finished building: ../src/dummy.c
- 
-Building target: dummy
-Invoking: GCC C Linker
-gcc  -o "dummy"  ./src/dummy.o   
-Finished building target: dummy
- 
-16:46:01 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-16:48:10 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-Building file: ../src/dummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy.d" -MT"src/dummy.d" -o "src/dummy.o" "../src/dummy.c"
-Finished building: ../src/dummy.c
- 
-Building target: dummy
-Invoking: GCC C Linker
-gcc  -o "dummy"  ./src/dummy.o   
-Finished building target: dummy
- 
-16:48:10 **** Build of configuration Debug for project dummy2 ****
-make all 
-Building file: ../src/dummy2.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy2.d" -MT"src/dummy2.d" -o "src/dummy2.o" "../src/dummy2.c"
-Finished building: ../src/dummy2.c
- 
-Building target: dummy2
-Invoking: GCC C Linker
-gcc  -o "dummy2"  ./src/dummy2.o   
-Finished building target: dummy2
- 
-16:48:12 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-16:48:42 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-16:48:42 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-Building file: ../src/dummy2.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy2.d" -MT"src/dummy2.d" -o "src/dummy2.o" "../src/dummy2.c"
-Finished building: ../src/dummy2.c
- 
-Building target: dummy2
-Invoking: GCC C Linker
-gcc  -o "dummy2"  ./src/dummy2.o   
-Finished building target: dummy2
- 
-16:48:45 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-16:49:11 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-16:49:11 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-Building file: ../src/dummy2.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy2.d" -MT"src/dummy2.d" -o "src/dummy2.o" "../src/dummy2.c"
-Finished building: ../src/dummy2.c
- 
-Building target: dummy2
-Invoking: GCC C Linker
-gcc  -o "dummy2"  ./src/dummy2.o   
-Finished building target: dummy2
- 
-16:49:12 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-16:49:22 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-16:49:22 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-Building file: ../src/dummy2.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy2.d" -MT"src/dummy2.d" -o "src/dummy2.o" "../src/dummy2.c"
-Finished building: ../src/dummy2.c
- 
-Building target: dummy2
-Invoking: GCC C Linker
-gcc  -o "dummy2"  ./src/dummy2.o   
-Finished building target: dummy2
- 
-16:49:23 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-16:51:42 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-16:51:42 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-Building file: ../src/dummy2.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy2.d" -MT"src/dummy2.d" -o "src/dummy2.o" "../src/dummy2.c"
-../src/dummy2.c: In function ‘main’:
-../src/dummy2.c:21:8: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
-  scanf("%d",x);
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/argsdummy.d" -MT"src/argsdummy.d" -o "src/argsdummy.o" "../src/argsdummy.c"
+../src/argsdummy.c: In function ‘main’:
+../src/argsdummy.c:17:8: warning: variable ‘b’ set but not used [-Wunused-but-set-variable]
+  int a,b;
         ^
-../src/dummy2.c:21:2: warning: ‘x’ is used uninitialized in this function [-Wuninitialized]
-  scanf("%d",x);
-  ^
-Finished building: ../src/dummy2.c
- 
-Building target: dummy2
-Invoking: GCC C Linker
-gcc  -o "dummy2"  ./src/dummy2.o   
-Finished building target: dummy2
- 
-16:51:44 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-16:52:04 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-16:52:04 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-Building file: ../src/dummy2.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy2.d" -MT"src/dummy2.d" -o "src/dummy2.o" "../src/dummy2.c"
-Finished building: ../src/dummy2.c
- 
-Building target: dummy2
-Invoking: GCC C Linker
-gcc  -o "dummy2"  ./src/dummy2.o   
-Finished building target: dummy2
- 
-16:52:06 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-16:53:12 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-16:53:13 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-Building file: ../src/dummy2.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy2.d" -MT"src/dummy2.d" -o "src/dummy2.o" "../src/dummy2.c"
-Finished building: ../src/dummy2.c
- 
-Building target: dummy2
-Invoking: GCC C Linker
-gcc  -o "dummy2"  ./src/dummy2.o   
-Finished building target: dummy2
- 
-16:53:15 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-16:55:47 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-16:55:47 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-Building file: ../src/dummy2.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy2.d" -MT"src/dummy2.d" -o "src/dummy2.o" "../src/dummy2.c"
-../src/dummy2.c: In function ‘main’:
-../src/dummy2.c:25:8: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[15]’ [-Wformat=]
-  scanf("%s",&name); //dont forget the &!
-        ^
-Finished building: ../src/dummy2.c
- 
-Building target: dummy2
-Invoking: GCC C Linker
-gcc  -o "dummy2"  ./src/dummy2.o   
-Finished building target: dummy2
- 
-16:56:47 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-16:56:47 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-Building file: ../src/dummy2.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy2.d" -MT"src/dummy2.d" -o "src/dummy2.o" "../src/dummy2.c"
-Finished building: ../src/dummy2.c
- 
-Building target: dummy2
-Invoking: GCC C Linker
-gcc  -o "dummy2"  ./src/dummy2.o   
-Finished building target: dummy2
- 
-16:56:56 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-16:56:56 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-Building file: ../src/dummy2.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy2.d" -MT"src/dummy2.d" -o "src/dummy2.o" "../src/dummy2.c"
-Finished building: ../src/dummy2.c
- 
-Building target: dummy2
-Invoking: GCC C Linker
-gcc  -o "dummy2"  ./src/dummy2.o   
-Finished building target: dummy2
- 
-16:56:57 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-16:57:04 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-16:59:19 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-16:59:19 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-Building file: ../src/dummy2.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy2.d" -MT"src/dummy2.d" -o "src/dummy2.o" "../src/dummy2.c"
-Finished building: ../src/dummy2.c
- 
-Building target: dummy2
-Invoking: GCC C Linker
-gcc  -o "dummy2"  ./src/dummy2.o   
-Finished building target: dummy2
- 
-16:59:24 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-17:00:17 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-17:00:29 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-17:00:44 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-17:01:01 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-17:01:02 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-Building file: ../src/dummy2.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy2.d" -MT"src/dummy2.d" -o "src/dummy2.o" "../src/dummy2.c"
-Finished building: ../src/dummy2.c
- 
-Building target: dummy2
-Invoking: GCC C Linker
-gcc  -o "dummy2"  ./src/dummy2.o   
-Finished building target: dummy2
- 
-17:01:04 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-17:04:12 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-17:04:12 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-17:04:12 **** Build of configuration Debug for project mathdummy ****
-make all 
-Building file: ../src/mathdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/mathdummy.d" -MT"src/mathdummy.d" -o "src/mathdummy.o" "../src/mathdummy.c"
-Finished building: ../src/mathdummy.c
- 
-Building target: mathdummy
-Invoking: GCC C Linker
-gcc  -o "mathdummy"  ./src/mathdummy.o   
-Finished building target: mathdummy
- 
-17:04:16 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-17:04:37 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-17:05:37 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-17:05:37 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-17:05:37 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-Building file: ../src/mathdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/mathdummy.d" -MT"src/mathdummy.d" -o "src/mathdummy.o" "../src/mathdummy.c"
-Finished building: ../src/mathdummy.c
- 
-Building target: mathdummy
-Invoking: GCC C Linker
-gcc  -o "mathdummy"  ./src/mathdummy.o   
-Finished building target: mathdummy
- 
-17:05:39 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-17:05:56 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-17:05:56 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-17:05:56 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-Building file: ../src/mathdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/mathdummy.d" -MT"src/mathdummy.d" -o "src/mathdummy.o" "../src/mathdummy.c"
-../src/mathdummy.c: In function ‘main’:
-../src/mathdummy.c:23:8: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘float *’ [-Wformat=]
-  scanf("%d",&a);
-        ^
-../src/mathdummy.c:24:9: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
-  printf("%d / %d = %d\n",a,b,a/b);
-         ^
-../src/mathdummy.c:24:9: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘double’ [-Wformat=]
-../src/mathdummy.c:24:9: warning: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘double’ [-Wformat=]
-Finished building: ../src/mathdummy.c
- 
-Building target: mathdummy
-Invoking: GCC C Linker
-gcc  -o "mathdummy"  ./src/mathdummy.o   
-Finished building target: mathdummy
- 
-17:05:57 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-17:06:15 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-17:06:15 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-17:06:15 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-Building file: ../src/mathdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/mathdummy.d" -MT"src/mathdummy.d" -o "src/mathdummy.o" "../src/mathdummy.c"
-Finished building: ../src/mathdummy.c
- 
-Building target: mathdummy
-Invoking: GCC C Linker
-gcc  -o "mathdummy"  ./src/mathdummy.o   
-Finished building target: mathdummy
- 
-17:06:17 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-17:06:40 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-Building file: ../src/mathdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/mathdummy.d" -MT"src/mathdummy.d" -o "src/mathdummy.o" "../src/mathdummy.c"
-Finished building: ../src/mathdummy.c
- 
-Building target: mathdummy
-Invoking: GCC C Linker
-gcc  -o "mathdummy"  ./src/mathdummy.o   
-Finished building target: mathdummy
- 
-17:06:52 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-17:08:42 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-17:08:43 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-17:08:44 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-17:08:46 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-17:08:56 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-17:08:56 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-17:08:57 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-Building file: ../src/mathdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/mathdummy.d" -MT"src/mathdummy.d" -o "src/mathdummy.o" "../src/mathdummy.c"
-Finished building: ../src/mathdummy.c
- 
-Building target: mathdummy
-Invoking: GCC C Linker
-gcc  -o "mathdummy"  ./src/mathdummy.o   
-Finished building target: mathdummy
- 
-17:09:55 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-17:09:56 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-17:09:56 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-Building file: ../src/mathdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/mathdummy.d" -MT"src/mathdummy.d" -o "src/mathdummy.o" "../src/mathdummy.c"
-Finished building: ../src/mathdummy.c
- 
-Building target: mathdummy
-Invoking: GCC C Linker
-gcc  -o "mathdummy"  ./src/mathdummy.o   
-Finished building target: mathdummy
- 
-17:09:58 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-17:10:17 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-17:10:17 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-17:10:17 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-Building file: ../src/mathdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/mathdummy.d" -MT"src/mathdummy.d" -o "src/mathdummy.o" "../src/mathdummy.c"
-Finished building: ../src/mathdummy.c
- 
-Building target: mathdummy
-Invoking: GCC C Linker
-gcc  -o "mathdummy"  ./src/mathdummy.o   
-Finished building target: mathdummy
- 
-17:10:19 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-17:11:29 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-17:11:29 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-17:11:29 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-Building file: ../src/mathdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/mathdummy.d" -MT"src/mathdummy.d" -o "src/mathdummy.o" "../src/mathdummy.c"
-Finished building: ../src/mathdummy.c
- 
-Building target: mathdummy
-Invoking: GCC C Linker
-gcc  -o "mathdummy"  ./src/mathdummy.o   
-Finished building target: mathdummy
- 
-17:11:30 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-17:12:16 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-17:12:16 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-17:12:17 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-Building file: ../src/mathdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/mathdummy.d" -MT"src/mathdummy.d" -o "src/mathdummy.o" "../src/mathdummy.c"
-Finished building: ../src/mathdummy.c
- 
-Building target: mathdummy
-Invoking: GCC C Linker
-gcc  -o "mathdummy"  ./src/mathdummy.o   
-Finished building target: mathdummy
- 
-17:12:20 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-17:13:19 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-17:13:19 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-17:13:19 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-Building file: ../src/mathdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/mathdummy.d" -MT"src/mathdummy.d" -o "src/mathdummy.o" "../src/mathdummy.c"
-Finished building: ../src/mathdummy.c
- 
-Building target: mathdummy
-Invoking: GCC C Linker
-gcc  -o "mathdummy"  ./src/mathdummy.o   
-Finished building target: mathdummy
- 
-17:13:21 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-17:13:37 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-17:13:37 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-17:13:38 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-Building file: ../src/mathdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/mathdummy.d" -MT"src/mathdummy.d" -o "src/mathdummy.o" "../src/mathdummy.c"
-Finished building: ../src/mathdummy.c
- 
-Building target: mathdummy
-Invoking: GCC C Linker
-gcc  -o "mathdummy"  ./src/mathdummy.o   
-Finished building target: mathdummy
- 
-17:13:39 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-17:14:25 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-17:14:25 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-17:14:26 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-Building file: ../src/mathdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/mathdummy.d" -MT"src/mathdummy.d" -o "src/mathdummy.o" "../src/mathdummy.c"
-../src/mathdummy.c: In function ‘main’:
-../src/mathdummy.c:40:4: warning: implicit declaration of function ‘sqrt’ [-Wimplicit-function-declaration]
-  r=sqrt(2.0);
-    ^
-../src/mathdummy.c:40:4: warning: incompatible implicit declaration of built-in function ‘sqrt’
-../src/mathdummy.c:40:4: note: include ‘<math.h>’ or provide a declaration of ‘sqrt’
-Finished building: ../src/mathdummy.c
- 
-Building target: mathdummy
-Invoking: GCC C Linker
-gcc  -o "mathdummy"  ./src/mathdummy.o   
-Finished building target: mathdummy
- 
-17:14:29 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-17:14:46 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-17:14:47 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-17:14:47 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-Building file: ../src/mathdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/mathdummy.d" -MT"src/mathdummy.d" -o "src/mathdummy.o" "../src/mathdummy.c"
-Finished building: ../src/mathdummy.c
- 
-Building target: mathdummy
-Invoking: GCC C Linker
-gcc  -o "mathdummy"  ./src/mathdummy.o   
-Finished building target: mathdummy
- 
-17:14:57 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-17:15:58 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-17:15:58 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-17:15:58 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-Building file: ../src/mathdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/mathdummy.d" -MT"src/mathdummy.d" -o "src/mathdummy.o" "../src/mathdummy.c"
-Finished building: ../src/mathdummy.c
- 
-Building target: mathdummy
-Invoking: GCC C Linker
-gcc  -o "mathdummy"  ./src/mathdummy.o   
-Finished building target: mathdummy
- 
-17:16:00 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-17:16:16 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-17:16:16 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-17:16:16 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-Building file: ../src/mathdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/mathdummy.d" -MT"src/mathdummy.d" -o "src/mathdummy.o" "../src/mathdummy.c"
-Finished building: ../src/mathdummy.c
- 
-Building target: mathdummy
-Invoking: GCC C Linker
-gcc  -o "mathdummy"  ./src/mathdummy.o   
-Finished building target: mathdummy
- 
-17:17:18 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-17:17:18 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-17:17:18 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-Building file: ../src/mathdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/mathdummy.d" -MT"src/mathdummy.d" -o "src/mathdummy.o" "../src/mathdummy.c"
-../src/mathdummy.c: In function ‘main’:
-../src/mathdummy.c:47:7: error: called object ‘rand’ is not a function or function pointer
-  rand=rand();
-       ^
-../src/mathdummy.c:46:6: note: declared here
-  int rand;
+../src/argsdummy.c:17:6: warning: variable ‘a’ set but not used [-Wunused-but-set-variable]
+  int a,b;
       ^
-src/subdir.mk:18: recipe for target 'src/mathdummy.o' failed
-make: *** [src/mathdummy.o] Error 1
-17:17:20 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-Building file: ../src/mathdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/mathdummy.d" -MT"src/mathdummy.d" -o "src/mathdummy.o" "../src/mathdummy.c"
-../src/mathdummy.c: In function ‘main’:
-../src/mathdummy.c:47:7: error: called object ‘rand’ is not a function or function pointer
-  rand=rand();
-       ^
-../src/mathdummy.c:46:6: note: declared here
-  int rand;
-      ^
-src/subdir.mk:18: recipe for target 'src/mathdummy.o' failed
-make: *** [src/mathdummy.o] Error 1
-17:17:37 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-17:17:37 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-17:17:38 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-Building file: ../src/mathdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/mathdummy.d" -MT"src/mathdummy.d" -o "src/mathdummy.o" "../src/mathdummy.c"
-Finished building: ../src/mathdummy.c
+Finished building: ../src/argsdummy.c
  
-Building target: mathdummy
+Building target: argsdummy
 Invoking: GCC C Linker
-gcc  -o "mathdummy"  ./src/mathdummy.o   
-Finished building target: mathdummy
+gcc  -o "argsdummy"  ./src/argsdummy.o   
+Finished building target: argsdummy
  
-17:17:41 **** Incremental Build of configuration Debug for project mathdummy ****
+20:46:17 **** Incremental Build of configuration Debug for project dummy ****
 make all 
 make: Nothing to be done for 'all'.
-17:18:21 **** Incremental Build of configuration Debug for project mathdummy ****
+20:46:17 **** Incremental Build of configuration Debug for project dummy2 ****
 make all 
-Building file: ../src/mathdummy.c
+make: Nothing to be done for 'all'.
+20:46:17 **** Incremental Build of configuration Debug for project flowdummy ****
+make all 
+make: Nothing to be done for 'all'.
+20:46:18 **** Incremental Build of configuration Debug for project fordummy ****
+make all 
+make: Nothing to be done for 'all'.
+20:46:18 **** Incremental Build of configuration Debug for project functiondummy ****
+make all 
+make: Nothing to be done for 'all'.
+20:46:18 **** Incremental Build of configuration Debug for project mathdummy ****
+make all 
+make: Nothing to be done for 'all'.
+20:46:18 **** Incremental Build of configuration Debug for project montiorwhiledummy ****
+make all 
+make: Nothing to be done for 'all'.
+20:46:22 **** Incremental Build of configuration Debug for project argsdummy ****
+make all 
+Building file: ../src/argsdummy.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/mathdummy.d" -MT"src/mathdummy.d" -o "src/mathdummy.o" "../src/mathdummy.c"
-Finished building: ../src/mathdummy.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/argsdummy.d" -MT"src/argsdummy.d" -o "src/argsdummy.o" "../src/argsdummy.c"
+Finished building: ../src/argsdummy.c
  
-Building target: mathdummy
+Building target: argsdummy
 Invoking: GCC C Linker
-gcc  -o "mathdummy"  ./src/mathdummy.o   
-Finished building target: mathdummy
+gcc  -o "argsdummy"  ./src/argsdummy.o   
+Finished building target: argsdummy
  
-17:18:55 **** Incremental Build of configuration Debug for project dummy ****
+20:46:23 **** Incremental Build of configuration Debug for project dummy ****
 make all 
 make: Nothing to be done for 'all'.
-17:18:55 **** Incremental Build of configuration Debug for project dummy2 ****
+20:46:23 **** Incremental Build of configuration Debug for project dummy2 ****
 make all 
 make: Nothing to be done for 'all'.
-17:18:55 **** Incremental Build of configuration Debug for project mathdummy ****
+20:46:23 **** Incremental Build of configuration Debug for project flowdummy ****
 make all 
-Building file: ../src/mathdummy.c
+make: Nothing to be done for 'all'.
+20:46:24 **** Incremental Build of configuration Debug for project fordummy ****
+make all 
+make: Nothing to be done for 'all'.
+20:46:24 **** Incremental Build of configuration Debug for project functiondummy ****
+make all 
+make: Nothing to be done for 'all'.
+20:46:24 **** Incremental Build of configuration Debug for project mathdummy ****
+make all 
+make: Nothing to be done for 'all'.
+20:46:24 **** Incremental Build of configuration Debug for project montiorwhiledummy ****
+make all 
+make: Nothing to be done for 'all'.
+20:46:25 **** Incremental Build of configuration Debug for project argsdummy ****
+make all 
+make: Nothing to be done for 'all'.
+20:49:08 **** Incremental Build of configuration Debug for project argsdummy ****
+make all 
+Building file: ../src/argsdummy.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/mathdummy.d" -MT"src/mathdummy.d" -o "src/mathdummy.o" "../src/mathdummy.c"
-Finished building: ../src/mathdummy.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/argsdummy.d" -MT"src/argsdummy.d" -o "src/argsdummy.o" "../src/argsdummy.c"
+Finished building: ../src/argsdummy.c
  
-Building target: mathdummy
+Building target: argsdummy
 Invoking: GCC C Linker
-gcc  -o "mathdummy"  ./src/mathdummy.o   
-Finished building target: mathdummy
+gcc  -o "argsdummy"  ./src/argsdummy.o   
+Finished building target: argsdummy
  
-17:18:59 **** Incremental Build of configuration Debug for project mathdummy ****
+20:49:08 **** Incremental Build of configuration Debug for project dummy ****
 make all 
 make: Nothing to be done for 'all'.
-17:19:03 **** Incremental Build of configuration Debug for project mathdummy ****
+20:49:08 **** Incremental Build of configuration Debug for project dummy2 ****
 make all 
 make: Nothing to be done for 'all'.
-17:20:17 **** Incremental Build of configuration Debug for project mathdummy ****
+20:49:09 **** Incremental Build of configuration Debug for project flowdummy ****
 make all 
-Building file: ../src/mathdummy.c
+make: Nothing to be done for 'all'.
+20:49:09 **** Incremental Build of configuration Debug for project fordummy ****
+make all 
+make: Nothing to be done for 'all'.
+20:49:09 **** Incremental Build of configuration Debug for project functiondummy ****
+make all 
+make: Nothing to be done for 'all'.
+20:49:09 **** Incremental Build of configuration Debug for project mathdummy ****
+make all 
+make: Nothing to be done for 'all'.
+20:49:10 **** Incremental Build of configuration Debug for project montiorwhiledummy ****
+make all 
+make: Nothing to be done for 'all'.
+20:49:11 **** Incremental Build of configuration Debug for project argsdummy ****
+make all 
+make: Nothing to be done for 'all'.
+20:49:27 **** Incremental Build of configuration Debug for project argsdummy ****
+make all 
+make: Nothing to be done for 'all'.
+20:52:39 **** Incremental Build of configuration Debug for project argsdummy ****
+make all 
+Building file: ../src/argsdummy.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/mathdummy.d" -MT"src/mathdummy.d" -o "src/mathdummy.o" "../src/mathdummy.c"
-../src/mathdummy.c: In function ‘main’:
-../src/mathdummy.c:49:18: warning: implicit declaration of function ‘time’ [-Wimplicit-function-declaration]
-  srand((unsigned)time(NULL)); //fetch current tic toc -
-                  ^
-Finished building: ../src/mathdummy.c
- 
-Building target: mathdummy
-Invoking: GCC C Linker
-gcc  -o "mathdummy"  ./src/mathdummy.o   
-Finished building target: mathdummy
- 
-17:20:23 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-17:25:20 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-17:25:21 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-17:25:21 **** Build of configuration Debug for project flowdummy ****
-make all 
-Building file: ../src/flowdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/flowdummy.d" -MT"src/flowdummy.d" -o "src/flowdummy.o" "../src/flowdummy.c"
-../src/flowdummy.c: In function ‘main’:
-../src/flowdummy.c:25:2: error: expected ‘,’ or ‘;’ before ‘printf’
-  printf("Type an integer: ");
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/argsdummy.d" -MT"src/argsdummy.d" -o "src/argsdummy.o" "../src/argsdummy.c"
+../src/argsdummy.c: In function ‘bar’:
+../src/argsdummy.c:62:2: warning: implicit declaration of function ‘puchar’ [-Wimplicit-function-declaration]
+  puchar('\n');
   ^
-../src/flowdummy.c:27:9: warning: too many arguments for format [-Wformat-extra-args]
-  printf("You typed: &d\n",a);
-         ^
-make: *** [src/flowdummy.o] Error 1
-src/subdir.mk:18: recipe for target 'src/flowdummy.o' failed
-17:25:21 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-Building file: ../src/mathdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/mathdummy.d" -MT"src/mathdummy.d" -o "src/mathdummy.o" "../src/mathdummy.c"
-../src/mathdummy.c: In function ‘main’:
-../src/mathdummy.c:49:18: warning: implicit declaration of function ‘time’ [-Wimplicit-function-declaration]
-  srand((unsigned)time(NULL)); //fetch current tic toc and give to srand function
-                  ^
-Finished building: ../src/mathdummy.c
+Finished building: ../src/argsdummy.c
  
-Building target: mathdummy
+Building target: argsdummy
 Invoking: GCC C Linker
-gcc  -o "mathdummy"  ./src/mathdummy.o   
-Finished building target: mathdummy
- 
-17:25:31 **** Incremental Build of configuration Debug for project dummy ****
+gcc  -o "argsdummy"  ./src/argsdummy.o   
+./src/argsdummy.o: In function `bar':
+/home/zweeden/workspace/argsdummy/Debug/../src/argsdummy.c:62: undefined reference to `puchar'
+collect2: error: ld returned 1 exit status
+makefile:30: recipe for target 'argsdummy' failed
+make: *** [argsdummy] Error 1
+20:52:40 **** Incremental Build of configuration Debug for project dummy ****
 make all 
 make: Nothing to be done for 'all'.
-17:25:31 **** Incremental Build of configuration Debug for project dummy2 ****
+20:52:40 **** Incremental Build of configuration Debug for project dummy2 ****
 make all 
 make: Nothing to be done for 'all'.
-17:25:31 **** Incremental Build of configuration Debug for project flowdummy ****
+20:52:40 **** Incremental Build of configuration Debug for project flowdummy ****
 make all 
-Building file: ../src/flowdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/flowdummy.d" -MT"src/flowdummy.d" -o "src/flowdummy.o" "../src/flowdummy.c"
-../src/flowdummy.c: In function ‘main’:
-../src/flowdummy.c:27:9: warning: too many arguments for format [-Wformat-extra-args]
-  printf("You typed: &d\n",a);
-         ^
-Finished building: ../src/flowdummy.c
- 
-Building target: flowdummy
+make: Nothing to be done for 'all'.
+20:52:40 **** Incremental Build of configuration Debug for project fordummy ****
+make all 
+make: Nothing to be done for 'all'.
+20:52:41 **** Incremental Build of configuration Debug for project functiondummy ****
+make all 
+make: Nothing to be done for 'all'.
+20:52:41 **** Incremental Build of configuration Debug for project mathdummy ****
+make all 
+make: Nothing to be done for 'all'.
+20:52:41 **** Incremental Build of configuration Debug for project montiorwhiledummy ****
+make all 
+make: Nothing to be done for 'all'.
+20:52:43 **** Incremental Build of configuration Debug for project argsdummy ****
+make all 
+Building target: argsdummy
 Invoking: GCC C Linker
-gcc  -o "flowdummy"  ./src/flowdummy.o   
-Finished building target: flowdummy
- 
-17:25:32 **** Incremental Build of configuration Debug for project mathdummy ****
+gcc  -o "argsdummy"  ./src/argsdummy.o   
+./src/argsdummy.o: In function `bar':
+/home/zweeden/workspace/argsdummy/Debug/../src/argsdummy.c:62: undefined reference to `puchar'
+collect2: error: ld returned 1 exit status
+makefile:30: recipe for target 'argsdummy' failed
+make: *** [argsdummy] Error 1
+20:52:59 **** Incremental Build of configuration Debug for project argsdummy ****
 make all 
-make: Nothing to be done for 'all'.
-17:25:34 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-make: Nothing to be done for 'all'.
-17:25:43 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-17:25:44 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-17:25:44 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-Building file: ../src/flowdummy.c
+Building file: ../src/argsdummy.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/flowdummy.d" -MT"src/flowdummy.d" -o "src/flowdummy.o" "../src/flowdummy.c"
-Finished building: ../src/flowdummy.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/argsdummy.d" -MT"src/argsdummy.d" -o "src/argsdummy.o" "../src/argsdummy.c"
+Finished building: ../src/argsdummy.c
  
-Building target: flowdummy
+Building target: argsdummy
 Invoking: GCC C Linker
-gcc  -o "flowdummy"  ./src/flowdummy.o   
-Finished building target: flowdummy
+gcc  -o "argsdummy"  ./src/argsdummy.o   
+Finished building target: argsdummy
  
-17:25:44 **** Incremental Build of configuration Debug for project mathdummy ****
+20:52:59 **** Incremental Build of configuration Debug for project dummy ****
 make all 
 make: Nothing to be done for 'all'.
-17:25:46 **** Incremental Build of configuration Debug for project flowdummy ****
+20:52:59 **** Incremental Build of configuration Debug for project dummy2 ****
 make all 
 make: Nothing to be done for 'all'.
-17:25:50 **** Incremental Build of configuration Debug for project flowdummy ****
+20:52:59 **** Incremental Build of configuration Debug for project flowdummy ****
 make all 
 make: Nothing to be done for 'all'.
-17:25:55 **** Incremental Build of configuration Debug for project flowdummy ****
+20:53:00 **** Incremental Build of configuration Debug for project fordummy ****
 make all 
 make: Nothing to be done for 'all'.
-17:37:30 **** Incremental Build of configuration Debug for project dummy ****
+20:53:00 **** Incremental Build of configuration Debug for project functiondummy ****
 make all 
 make: Nothing to be done for 'all'.
-17:37:30 **** Incremental Build of configuration Debug for project dummy2 ****
+20:53:00 **** Incremental Build of configuration Debug for project mathdummy ****
 make all 
 make: Nothing to be done for 'all'.
-17:37:30 **** Incremental Build of configuration Debug for project flowdummy ****
+20:53:00 **** Incremental Build of configuration Debug for project montiorwhiledummy ****
 make all 
-Building file: ../src/flowdummy.c
+make: Nothing to be done for 'all'.
+20:53:01 **** Incremental Build of configuration Debug for project argsdummy ****
+make all 
+make: Nothing to be done for 'all'.
+20:53:08 **** Incremental Build of configuration Debug for project argsdummy ****
+make all 
+Building file: ../src/argsdummy.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/flowdummy.d" -MT"src/flowdummy.d" -o "src/flowdummy.o" "../src/flowdummy.c"
-../src/flowdummy.c: In function ‘main’:
-../src/flowdummy.c:41:8: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘char *’ [-Wformat=]
-  scanf("%d",&aa);
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/argsdummy.d" -MT"src/argsdummy.d" -o "src/argsdummy.o" "../src/argsdummy.c"
+Finished building: ../src/argsdummy.c
+ 
+Building target: argsdummy
+Invoking: GCC C Linker
+gcc  -o "argsdummy"  ./src/argsdummy.o   
+Finished building target: argsdummy
+ 
+20:53:09 **** Incremental Build of configuration Debug for project dummy ****
+make all 
+make: Nothing to be done for 'all'.
+20:53:09 **** Incremental Build of configuration Debug for project dummy2 ****
+make all 
+make: Nothing to be done for 'all'.
+20:53:09 **** Incremental Build of configuration Debug for project flowdummy ****
+make all 
+make: Nothing to be done for 'all'.
+20:53:09 **** Incremental Build of configuration Debug for project fordummy ****
+make all 
+make: Nothing to be done for 'all'.
+20:53:09 **** Incremental Build of configuration Debug for project functiondummy ****
+make all 
+make: Nothing to be done for 'all'.
+20:53:10 **** Incremental Build of configuration Debug for project mathdummy ****
+make all 
+make: Nothing to be done for 'all'.
+20:53:10 **** Incremental Build of configuration Debug for project montiorwhiledummy ****
+make all 
+make: Nothing to be done for 'all'.
+20:53:11 **** Incremental Build of configuration Debug for project argsdummy ****
+make all 
+make: Nothing to be done for 'all'.
+20:53:21 **** Incremental Build of configuration Debug for project argsdummy ****
+make all 
+Building file: ../src/argsdummy.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/argsdummy.d" -MT"src/argsdummy.d" -o "src/argsdummy.o" "../src/argsdummy.c"
+Finished building: ../src/argsdummy.c
+ 
+Building target: argsdummy
+Invoking: GCC C Linker
+gcc  -o "argsdummy"  ./src/argsdummy.o   
+Finished building target: argsdummy
+ 
+20:53:21 **** Incremental Build of configuration Debug for project dummy ****
+make all 
+make: Nothing to be done for 'all'.
+20:53:21 **** Incremental Build of configuration Debug for project dummy2 ****
+make all 
+make: Nothing to be done for 'all'.
+20:53:21 **** Incremental Build of configuration Debug for project flowdummy ****
+make all 
+make: Nothing to be done for 'all'.
+20:53:21 **** Incremental Build of configuration Debug for project fordummy ****
+make all 
+make: Nothing to be done for 'all'.
+20:53:22 **** Incremental Build of configuration Debug for project functiondummy ****
+make all 
+make: Nothing to be done for 'all'.
+20:53:22 **** Incremental Build of configuration Debug for project mathdummy ****
+make all 
+make: Nothing to be done for 'all'.
+20:53:22 **** Incremental Build of configuration Debug for project montiorwhiledummy ****
+make all 
+make: Nothing to be done for 'all'.
+20:53:23 **** Incremental Build of configuration Debug for project argsdummy ****
+make all 
+make: Nothing to be done for 'all'.
+20:57:27 **** Incremental Build of configuration Debug for project argsdummy ****
+make all 
+make: Nothing to be done for 'all'.
+20:57:27 **** Incremental Build of configuration Debug for project dummy ****
+make all 
+make: Nothing to be done for 'all'.
+20:57:27 **** Incremental Build of configuration Debug for project dummy2 ****
+make all 
+make: Nothing to be done for 'all'.
+20:57:28 **** Incremental Build of configuration Debug for project flowdummy ****
+make all 
+make: Nothing to be done for 'all'.
+20:57:28 **** Incremental Build of configuration Debug for project fordummy ****
+make all 
+make: Nothing to be done for 'all'.
+20:57:28 **** Build of configuration Debug for project funcchallenge ****
+make all 
+Building file: ../src/funcchallenge.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/funcchallenge.d" -MT"src/funcchallenge.d" -o "src/funcchallenge.o" "../src/funcchallenge.c"
+Finished building: ../src/funcchallenge.c
+ 
+Building target: funcchallenge
+Invoking: GCC C Linker
+gcc  -o "funcchallenge"  ./src/funcchallenge.o   
+Finished building target: funcchallenge
+ 
+20:57:29 **** Incremental Build of configuration Debug for project functiondummy ****
+make all 
+make: Nothing to be done for 'all'.
+20:57:29 **** Incremental Build of configuration Debug for project mathdummy ****
+make all 
+make: Nothing to be done for 'all'.
+20:57:29 **** Incremental Build of configuration Debug for project montiorwhiledummy ****
+make all 
+make: Nothing to be done for 'all'.
+20:57:30 **** Incremental Build of configuration Debug for project funcchallenge ****
+make all 
+make: Nothing to be done for 'all'.
+20:57:37 **** Incremental Build of configuration Debug for project funcchallenge ****
+make all 
+make: Nothing to be done for 'all'.
+20:57:43 **** Incremental Build of configuration Debug for project funcchallenge ****
+make all 
+make: Nothing to be done for 'all'.
+21:00:34 **** Incremental Build of configuration Debug for project argsdummy ****
+make all 
+make: Nothing to be done for 'all'.
+21:00:34 **** Incremental Build of configuration Debug for project dummy ****
+make all 
+make: Nothing to be done for 'all'.
+21:00:34 **** Incremental Build of configuration Debug for project dummy2 ****
+make all 
+make: Nothing to be done for 'all'.
+21:00:34 **** Incremental Build of configuration Debug for project flowdummy ****
+make all 
+make: Nothing to be done for 'all'.
+21:00:35 **** Incremental Build of configuration Debug for project fordummy ****
+make all 
+make: Nothing to be done for 'all'.
+21:00:35 **** Incremental Build of configuration Debug for project funcchallenge ****
+make all 
+Building file: ../src/funcchallenge.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/funcchallenge.d" -MT"src/funcchallenge.d" -o "src/funcchallenge.o" "../src/funcchallenge.c"
+Finished building: ../src/funcchallenge.c
+ 
+Building target: funcchallenge
+Invoking: GCC C Linker
+gcc  -o "funcchallenge"  ./src/funcchallenge.o   
+Finished building target: funcchallenge
+ 
+21:00:35 **** Incremental Build of configuration Debug for project functiondummy ****
+make all 
+make: Nothing to be done for 'all'.
+21:00:35 **** Incremental Build of configuration Debug for project mathdummy ****
+make all 
+make: Nothing to be done for 'all'.
+21:00:36 **** Incremental Build of configuration Debug for project montiorwhiledummy ****
+make all 
+make: Nothing to be done for 'all'.
+21:00:36 **** Build of configuration Debug for project returnvaldummy ****
+make all 
+Building file: ../src/returnvaldummy.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/returnvaldummy.d" -MT"src/returnvaldummy.d" -o "src/returnvaldummy.o" "../src/returnvaldummy.c"
+Finished building: ../src/returnvaldummy.c
+ 
+Building target: returnvaldummy
+Invoking: GCC C Linker
+gcc  -o "returnvaldummy"  ./src/returnvaldummy.o   
+Finished building target: returnvaldummy
+ 
+21:00:37 **** Incremental Build of configuration Debug for project returnvaldummy ****
+make all 
+make: Nothing to be done for 'all'.
+21:00:51 **** Incremental Build of configuration Debug for project argsdummy ****
+make all 
+make: Nothing to be done for 'all'.
+21:00:51 **** Incremental Build of configuration Debug for project dummy ****
+make all 
+make: Nothing to be done for 'all'.
+21:00:51 **** Incremental Build of configuration Debug for project dummy2 ****
+make all 
+make: Nothing to be done for 'all'.
+21:00:52 **** Incremental Build of configuration Debug for project flowdummy ****
+make all 
+make: Nothing to be done for 'all'.
+21:00:52 **** Incremental Build of configuration Debug for project fordummy ****
+make all 
+make: Nothing to be done for 'all'.
+21:00:52 **** Incremental Build of configuration Debug for project funcchallenge ****
+make all 
+make: Nothing to be done for 'all'.
+21:00:52 **** Incremental Build of configuration Debug for project functiondummy ****
+make all 
+make: Nothing to be done for 'all'.
+21:00:53 **** Incremental Build of configuration Debug for project mathdummy ****
+make all 
+make: Nothing to be done for 'all'.
+21:00:53 **** Incremental Build of configuration Debug for project montiorwhiledummy ****
+make all 
+make: Nothing to be done for 'all'.
+21:00:53 **** Incremental Build of configuration Debug for project returnvaldummy ****
+make all 
+Building file: ../src/returnvaldummy.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/returnvaldummy.d" -MT"src/returnvaldummy.d" -o "src/returnvaldummy.o" "../src/returnvaldummy.c"
+Finished building: ../src/returnvaldummy.c
+ 
+Building target: returnvaldummy
+Invoking: GCC C Linker
+gcc  -o "returnvaldummy"  ./src/returnvaldummy.o   
+Finished building target: returnvaldummy
+ 
+21:00:54 **** Incremental Build of configuration Debug for project returnvaldummy ****
+make all 
+make: Nothing to be done for 'all'.
+21:01:14 **** Incremental Build of configuration Debug for project argsdummy ****
+make all 
+make: Nothing to be done for 'all'.
+21:01:14 **** Incremental Build of configuration Debug for project dummy ****
+make all 
+make: Nothing to be done for 'all'.
+21:01:14 **** Incremental Build of configuration Debug for project dummy2 ****
+make all 
+make: Nothing to be done for 'all'.
+21:01:14 **** Incremental Build of configuration Debug for project flowdummy ****
+make all 
+make: Nothing to be done for 'all'.
+21:01:14 **** Incremental Build of configuration Debug for project fordummy ****
+make all 
+make: Nothing to be done for 'all'.
+21:01:15 **** Incremental Build of configuration Debug for project funcchallenge ****
+make all 
+make: Nothing to be done for 'all'.
+21:01:15 **** Incremental Build of configuration Debug for project functiondummy ****
+make all 
+make: Nothing to be done for 'all'.
+21:01:15 **** Incremental Build of configuration Debug for project mathdummy ****
+make all 
+make: Nothing to be done for 'all'.
+21:01:15 **** Incremental Build of configuration Debug for project montiorwhiledummy ****
+make all 
+make: Nothing to be done for 'all'.
+21:01:16 **** Incremental Build of configuration Debug for project returnvaldummy ****
+make all 
+Building file: ../src/returnvaldummy.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/returnvaldummy.d" -MT"src/returnvaldummy.d" -o "src/returnvaldummy.o" "../src/returnvaldummy.c"
+Finished building: ../src/returnvaldummy.c
+ 
+Building target: returnvaldummy
+Invoking: GCC C Linker
+gcc  -o "returnvaldummy"  ./src/returnvaldummy.o   
+Finished building target: returnvaldummy
+ 
+21:01:34 **** Incremental Build of configuration Debug for project argsdummy ****
+make all 
+make: Nothing to be done for 'all'.
+21:01:34 **** Incremental Build of configuration Debug for project dummy ****
+make all 
+make: Nothing to be done for 'all'.
+21:01:34 **** Incremental Build of configuration Debug for project dummy2 ****
+make all 
+make: Nothing to be done for 'all'.
+21:01:34 **** Incremental Build of configuration Debug for project flowdummy ****
+make all 
+make: Nothing to be done for 'all'.
+21:01:34 **** Incremental Build of configuration Debug for project fordummy ****
+make all 
+make: Nothing to be done for 'all'.
+21:01:35 **** Incremental Build of configuration Debug for project funcchallenge ****
+make all 
+make: Nothing to be done for 'all'.
+21:01:35 **** Incremental Build of configuration Debug for project functiondummy ****
+make all 
+make: Nothing to be done for 'all'.
+21:01:35 **** Incremental Build of configuration Debug for project mathdummy ****
+make all 
+make: Nothing to be done for 'all'.
+21:01:35 **** Incremental Build of configuration Debug for project montiorwhiledummy ****
+make all 
+make: Nothing to be done for 'all'.
+21:01:36 **** Incremental Build of configuration Debug for project returnvaldummy ****
+make all 
+Building file: ../src/returnvaldummy.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/returnvaldummy.d" -MT"src/returnvaldummy.d" -o "src/returnvaldummy.o" "../src/returnvaldummy.c"
+Finished building: ../src/returnvaldummy.c
+ 
+Building target: returnvaldummy
+Invoking: GCC C Linker
+gcc  -o "returnvaldummy"  ./src/returnvaldummy.o   
+Finished building target: returnvaldummy
+ 
+21:01:37 **** Incremental Build of configuration Debug for project returnvaldummy ****
+make all 
+make: Nothing to be done for 'all'.
+21:05:12 **** Incremental Build of configuration Debug for project argsdummy ****
+make all 
+make: Nothing to be done for 'all'.
+21:05:12 **** Incremental Build of configuration Debug for project dummy ****
+make all 
+make: Nothing to be done for 'all'.
+21:05:12 **** Incremental Build of configuration Debug for project dummy2 ****
+make all 
+make: Nothing to be done for 'all'.
+21:05:13 **** Incremental Build of configuration Debug for project flowdummy ****
+make all 
+make: Nothing to be done for 'all'.
+21:05:13 **** Incremental Build of configuration Debug for project fordummy ****
+make all 
+make: Nothing to be done for 'all'.
+21:05:13 **** Incremental Build of configuration Debug for project funcchallenge ****
+make all 
+make: Nothing to be done for 'all'.
+21:05:13 **** Incremental Build of configuration Debug for project functiondummy ****
+make all 
+make: Nothing to be done for 'all'.
+21:05:14 **** Incremental Build of configuration Debug for project mathdummy ****
+make all 
+make: Nothing to be done for 'all'.
+21:05:14 **** Incremental Build of configuration Debug for project montiorwhiledummy ****
+make all 
+make: Nothing to be done for 'all'.
+21:05:14 **** Incremental Build of configuration Debug for project returnvaldummy ****
+make all 
+Building file: ../src/returnvaldummy.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/returnvaldummy.d" -MT"src/returnvaldummy.d" -o "src/returnvaldummy.o" "../src/returnvaldummy.c"
+../src/returnvaldummy.c: In function ‘main’:
+../src/returnvaldummy.c:17:8: warning: unused variable ‘a’ [-Wunused-variable]
+  float a,x,y,z;
         ^
-../src/flowdummy.c:44:4: error: too many arguments to function ‘puts’
-    puts("Chose %d",aa);
-    ^
-../src/flowdummy.c:47:4: error: too many arguments to function ‘puts’
-    puts("Chose %d",aa);
-    ^
-../src/flowdummy.c:50:4: error: too many arguments to function ‘puts’
-    puts("Chose %d",aa);
-    ^
-make: *** [src/flowdummy.o] Error 1
-src/subdir.mk:18: recipe for target 'src/flowdummy.o' failed
-17:37:31 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-17:37:47 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-17:37:47 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-17:37:47 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-Building file: ../src/flowdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/flowdummy.d" -MT"src/flowdummy.d" -o "src/flowdummy.o" "../src/flowdummy.c"
-../src/flowdummy.c: In function ‘main’:
-../src/flowdummy.c:41:8: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘char *’ [-Wformat=]
-  scanf("%d",&aa);
-        ^
-Finished building: ../src/flowdummy.c
+Finished building: ../src/returnvaldummy.c
  
-Building target: flowdummy
+Building target: returnvaldummy
 Invoking: GCC C Linker
-gcc  -o "flowdummy"  ./src/flowdummy.o   
-Finished building target: flowdummy
+gcc  -o "returnvaldummy"  ./src/returnvaldummy.o   
+Finished building target: returnvaldummy
  
-17:37:48 **** Incremental Build of configuration Debug for project mathdummy ****
+21:05:22 **** Incremental Build of configuration Debug for project argsdummy ****
 make all 
 make: Nothing to be done for 'all'.
-17:37:51 **** Incremental Build of configuration Debug for project flowdummy ****
+21:05:22 **** Incremental Build of configuration Debug for project dummy ****
 make all 
 make: Nothing to be done for 'all'.
-17:38:09 **** Incremental Build of configuration Debug for project dummy ****
+21:05:22 **** Incremental Build of configuration Debug for project dummy2 ****
 make all 
 make: Nothing to be done for 'all'.
-17:38:09 **** Incremental Build of configuration Debug for project dummy2 ****
+21:05:23 **** Incremental Build of configuration Debug for project flowdummy ****
 make all 
 make: Nothing to be done for 'all'.
-17:38:09 **** Incremental Build of configuration Debug for project flowdummy ****
+21:05:23 **** Incremental Build of configuration Debug for project fordummy ****
 make all 
-Building file: ../src/flowdummy.c
+make: Nothing to be done for 'all'.
+21:05:23 **** Incremental Build of configuration Debug for project funcchallenge ****
+make all 
+make: Nothing to be done for 'all'.
+21:05:23 **** Incremental Build of configuration Debug for project functiondummy ****
+make all 
+make: Nothing to be done for 'all'.
+21:05:24 **** Incremental Build of configuration Debug for project mathdummy ****
+make all 
+make: Nothing to be done for 'all'.
+21:05:24 **** Incremental Build of configuration Debug for project montiorwhiledummy ****
+make all 
+make: Nothing to be done for 'all'.
+21:05:24 **** Incremental Build of configuration Debug for project returnvaldummy ****
+make all 
+Building file: ../src/returnvaldummy.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/flowdummy.d" -MT"src/flowdummy.d" -o "src/flowdummy.o" "../src/flowdummy.c"
-../src/flowdummy.c: In function ‘main’:
-../src/flowdummy.c:41:8: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘char *’ [-Wformat=]
-  scanf("%d",&aa);
-        ^
-Finished building: ../src/flowdummy.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/returnvaldummy.d" -MT"src/returnvaldummy.d" -o "src/returnvaldummy.o" "../src/returnvaldummy.c"
+Finished building: ../src/returnvaldummy.c
  
-Building target: flowdummy
+Building target: returnvaldummy
 Invoking: GCC C Linker
-gcc  -o "flowdummy"  ./src/flowdummy.o   
-Finished building target: flowdummy
+gcc  -o "returnvaldummy"  ./src/returnvaldummy.o   
+Finished building target: returnvaldummy
  
-17:38:10 **** Incremental Build of configuration Debug for project mathdummy ****
+21:05:29 **** Incremental Build of configuration Debug for project returnvaldummy ****
 make all 
 make: Nothing to be done for 'all'.
-17:38:11 **** Incremental Build of configuration Debug for project flowdummy ****
+21:05:46 **** Incremental Build of configuration Debug for project returnvaldummy ****
 make all 
 make: Nothing to be done for 'all'.
-17:38:36 **** Incremental Build of configuration Debug for project dummy ****
+21:06:33 **** Incremental Build of configuration Debug for project argsdummy ****
 make all 
 make: Nothing to be done for 'all'.
-17:38:36 **** Incremental Build of configuration Debug for project dummy2 ****
+21:06:33 **** Incremental Build of configuration Debug for project dummy ****
 make all 
 make: Nothing to be done for 'all'.
-17:38:36 **** Incremental Build of configuration Debug for project flowdummy ****
+21:06:33 **** Incremental Build of configuration Debug for project dummy2 ****
 make all 
-Building file: ../src/flowdummy.c
+make: Nothing to be done for 'all'.
+21:06:33 **** Incremental Build of configuration Debug for project flowdummy ****
+make all 
+make: Nothing to be done for 'all'.
+21:06:34 **** Incremental Build of configuration Debug for project fordummy ****
+make all 
+make: Nothing to be done for 'all'.
+21:06:34 **** Incremental Build of configuration Debug for project funcchallenge ****
+make all 
+make: Nothing to be done for 'all'.
+21:06:34 **** Incremental Build of configuration Debug for project functiondummy ****
+make all 
+make: Nothing to be done for 'all'.
+21:06:35 **** Incremental Build of configuration Debug for project mathdummy ****
+make all 
+make: Nothing to be done for 'all'.
+21:06:35 **** Incremental Build of configuration Debug for project montiorwhiledummy ****
+make all 
+make: Nothing to be done for 'all'.
+21:06:35 **** Incremental Build of configuration Debug for project returnvaldummy ****
+make all 
+Building file: ../src/returnvaldummy.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/flowdummy.d" -MT"src/flowdummy.d" -o "src/flowdummy.o" "../src/flowdummy.c"
-Finished building: ../src/flowdummy.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/returnvaldummy.d" -MT"src/returnvaldummy.d" -o "src/returnvaldummy.o" "../src/returnvaldummy.c"
+Finished building: ../src/returnvaldummy.c
  
-Building target: flowdummy
+Building target: returnvaldummy
 Invoking: GCC C Linker
-gcc  -o "flowdummy"  ./src/flowdummy.o   
-Finished building target: flowdummy
+gcc  -o "returnvaldummy"  ./src/returnvaldummy.o   
+Finished building target: returnvaldummy
  
-17:38:37 **** Incremental Build of configuration Debug for project mathdummy ****
+21:06:42 **** Incremental Build of configuration Debug for project argsdummy ****
 make all 
 make: Nothing to be done for 'all'.
-17:38:38 **** Incremental Build of configuration Debug for project flowdummy ****
+21:06:43 **** Incremental Build of configuration Debug for project dummy ****
 make all 
 make: Nothing to be done for 'all'.
-17:38:49 **** Incremental Build of configuration Debug for project flowdummy ****
+21:06:43 **** Incremental Build of configuration Debug for project dummy2 ****
 make all 
 make: Nothing to be done for 'all'.
-17:39:01 **** Incremental Build of configuration Debug for project flowdummy ****
+21:06:43 **** Incremental Build of configuration Debug for project flowdummy ****
 make all 
 make: Nothing to be done for 'all'.
-17:39:11 **** Incremental Build of configuration Debug for project dummy ****
+21:06:43 **** Incremental Build of configuration Debug for project fordummy ****
 make all 
 make: Nothing to be done for 'all'.
-17:39:11 **** Incremental Build of configuration Debug for project dummy2 ****
+21:06:43 **** Incremental Build of configuration Debug for project funcchallenge ****
 make all 
 make: Nothing to be done for 'all'.
-17:39:11 **** Incremental Build of configuration Debug for project flowdummy ****
+21:06:44 **** Incremental Build of configuration Debug for project functiondummy ****
 make all 
-Building file: ../src/flowdummy.c
+make: Nothing to be done for 'all'.
+21:06:44 **** Incremental Build of configuration Debug for project mathdummy ****
+make all 
+make: Nothing to be done for 'all'.
+21:06:44 **** Incremental Build of configuration Debug for project montiorwhiledummy ****
+make all 
+make: Nothing to be done for 'all'.
+21:06:44 **** Incremental Build of configuration Debug for project returnvaldummy ****
+make all 
+Building file: ../src/returnvaldummy.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/flowdummy.d" -MT"src/flowdummy.d" -o "src/flowdummy.o" "../src/flowdummy.c"
-Finished building: ../src/flowdummy.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/returnvaldummy.d" -MT"src/returnvaldummy.d" -o "src/returnvaldummy.o" "../src/returnvaldummy.c"
+Finished building: ../src/returnvaldummy.c
  
-Building target: flowdummy
+Building target: returnvaldummy
 Invoking: GCC C Linker
-gcc  -o "flowdummy"  ./src/flowdummy.o   
-Finished building target: flowdummy
+gcc  -o "returnvaldummy"  ./src/returnvaldummy.o   
+Finished building target: returnvaldummy
  
-17:39:12 **** Incremental Build of configuration Debug for project mathdummy ****
+21:10:32 **** Incremental Build of configuration Debug for project argsdummy ****
 make all 
 make: Nothing to be done for 'all'.
-17:39:13 **** Incremental Build of configuration Debug for project flowdummy ****
+21:10:32 **** Incremental Build of configuration Debug for project dummy ****
 make all 
 make: Nothing to be done for 'all'.
-17:39:54 **** Incremental Build of configuration Debug for project dummy ****
+21:10:33 **** Incremental Build of configuration Debug for project dummy2 ****
 make all 
 make: Nothing to be done for 'all'.
-17:39:55 **** Incremental Build of configuration Debug for project dummy2 ****
+21:10:33 **** Incremental Build of configuration Debug for project flowdummy ****
 make all 
 make: Nothing to be done for 'all'.
-17:39:55 **** Incremental Build of configuration Debug for project flowdummy ****
+21:10:33 **** Incremental Build of configuration Debug for project fordummy ****
 make all 
-Building file: ../src/flowdummy.c
+make: Nothing to be done for 'all'.
+21:10:33 **** Incremental Build of configuration Debug for project funcchallenge ****
+make all 
+make: Nothing to be done for 'all'.
+21:10:34 **** Incremental Build of configuration Debug for project functiondummy ****
+make all 
+make: Nothing to be done for 'all'.
+21:10:34 **** Incremental Build of configuration Debug for project mathdummy ****
+make all 
+make: Nothing to be done for 'all'.
+21:10:34 **** Incremental Build of configuration Debug for project montiorwhiledummy ****
+make all 
+make: Nothing to be done for 'all'.
+21:10:34 **** Build of configuration Debug for project returndummy ****
+make all 
+Building file: ../src/returndummy.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/flowdummy.d" -MT"src/flowdummy.d" -o "src/flowdummy.o" "../src/flowdummy.c"
-Finished building: ../src/flowdummy.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/returndummy.d" -MT"src/returndummy.d" -o "src/returndummy.o" "../src/returndummy.c"
+Finished building: ../src/returndummy.c
  
-Building target: flowdummy
+Building target: returndummy
 Invoking: GCC C Linker
-gcc  -o "flowdummy"  ./src/flowdummy.o   
-Finished building target: flowdummy
+gcc  -o "returndummy"  ./src/returndummy.o   
+Finished building target: returndummy
  
-17:39:55 **** Incremental Build of configuration Debug for project mathdummy ****
+21:10:35 **** Incremental Build of configuration Debug for project returnvaldummy ****
 make all 
 make: Nothing to be done for 'all'.
-17:39:56 **** Incremental Build of configuration Debug for project flowdummy ****
+21:10:36 **** Incremental Build of configuration Debug for project returndummy ****
 make all 
 make: Nothing to be done for 'all'.
-19:34:41 **** Incremental Build of configuration Debug for project dummy ****
+21:10:45 **** Incremental Build of configuration Debug for project returndummy ****
 make all 
 make: Nothing to be done for 'all'.
-19:34:42 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-19:34:42 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-Building file: ../src/flowdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/flowdummy.d" -MT"src/flowdummy.d" -o "src/flowdummy.o" "../src/flowdummy.c"
-Finished building: ../src/flowdummy.c
- 
-Building target: flowdummy
-Invoking: GCC C Linker
-gcc  -o "flowdummy"  ./src/flowdummy.o   
-Finished building target: flowdummy
- 
-19:34:43 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:35:07 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:35:07 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-19:35:08 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-Building file: ../src/flowdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/flowdummy.d" -MT"src/flowdummy.d" -o "src/flowdummy.o" "../src/flowdummy.c"
-Finished building: ../src/flowdummy.c
- 
-Building target: flowdummy
-Invoking: GCC C Linker
-gcc  -o "flowdummy"  ./src/flowdummy.o   
-Finished building target: flowdummy
- 
-19:35:08 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:36:59 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:36:59 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-19:37:00 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-Building file: ../src/flowdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/flowdummy.d" -MT"src/flowdummy.d" -o "src/flowdummy.o" "../src/flowdummy.c"
-Finished building: ../src/flowdummy.c
- 
-Building target: flowdummy
-Invoking: GCC C Linker
-gcc  -o "flowdummy"  ./src/flowdummy.o   
-Finished building target: flowdummy
- 
-19:37:00 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:37:05 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:37:11 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:38:36 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:38:36 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-19:38:37 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-Building file: ../src/flowdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/flowdummy.d" -MT"src/flowdummy.d" -o "src/flowdummy.o" "../src/flowdummy.c"
-Finished building: ../src/flowdummy.c
- 
-Building target: flowdummy
-Invoking: GCC C Linker
-gcc  -o "flowdummy"  ./src/flowdummy.o   
-Finished building target: flowdummy
- 
-19:38:37 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:38:39 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:41:21 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:41:21 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-19:41:22 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-Building file: ../src/flowdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/flowdummy.d" -MT"src/flowdummy.d" -o "src/flowdummy.o" "../src/flowdummy.c"
-Finished building: ../src/flowdummy.c
- 
-Building target: flowdummy
-Invoking: GCC C Linker
-gcc  -o "flowdummy"  ./src/flowdummy.o   
-Finished building target: flowdummy
- 
-19:41:22 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:41:25 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:42:28 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:42:28 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-19:42:28 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-Building file: ../src/flowdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/flowdummy.d" -MT"src/flowdummy.d" -o "src/flowdummy.o" "../src/flowdummy.c"
-Finished building: ../src/flowdummy.c
- 
-Building target: flowdummy
-Invoking: GCC C Linker
-gcc  -o "flowdummy"  ./src/flowdummy.o   
-Finished building target: flowdummy
- 
-19:42:29 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:42:31 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:42:44 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:43:02 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:43:02 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-19:43:02 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-Building file: ../src/flowdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/flowdummy.d" -MT"src/flowdummy.d" -o "src/flowdummy.o" "../src/flowdummy.c"
-Finished building: ../src/flowdummy.c
- 
-Building target: flowdummy
-Invoking: GCC C Linker
-gcc  -o "flowdummy"  ./src/flowdummy.o   
-Finished building target: flowdummy
- 
-19:43:03 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:43:04 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:43:14 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:43:14 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-19:43:15 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-Building file: ../src/flowdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/flowdummy.d" -MT"src/flowdummy.d" -o "src/flowdummy.o" "../src/flowdummy.c"
-Finished building: ../src/flowdummy.c
- 
-Building target: flowdummy
-Invoking: GCC C Linker
-gcc  -o "flowdummy"  ./src/flowdummy.o   
-Finished building target: flowdummy
- 
-19:43:15 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:43:17 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:44:29 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:44:29 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-19:44:29 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-Building file: ../src/flowdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/flowdummy.d" -MT"src/flowdummy.d" -o "src/flowdummy.o" "../src/flowdummy.c"
-Finished building: ../src/flowdummy.c
- 
-Building target: flowdummy
-Invoking: GCC C Linker
-gcc  -o "flowdummy"  ./src/flowdummy.o   
-Finished building target: flowdummy
- 
-19:44:30 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:44:32 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:44:43 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:44:43 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-19:44:43 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-Building file: ../src/flowdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/flowdummy.d" -MT"src/flowdummy.d" -o "src/flowdummy.o" "../src/flowdummy.c"
-Finished building: ../src/flowdummy.c
- 
-Building target: flowdummy
-Invoking: GCC C Linker
-gcc  -o "flowdummy"  ./src/flowdummy.o   
-Finished building target: flowdummy
- 
-19:44:44 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:44:45 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:44:58 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:44:58 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-19:44:58 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-Building file: ../src/flowdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/flowdummy.d" -MT"src/flowdummy.d" -o "src/flowdummy.o" "../src/flowdummy.c"
-Finished building: ../src/flowdummy.c
- 
-Building target: flowdummy
-Invoking: GCC C Linker
-gcc  -o "flowdummy"  ./src/flowdummy.o   
-Finished building target: flowdummy
- 
-19:44:59 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:45:00 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:46:01 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:46:01 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-19:46:01 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-Building file: ../src/flowdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/flowdummy.d" -MT"src/flowdummy.d" -o "src/flowdummy.o" "../src/flowdummy.c"
-Finished building: ../src/flowdummy.c
- 
-Building target: flowdummy
-Invoking: GCC C Linker
-gcc  -o "flowdummy"  ./src/flowdummy.o   
-Finished building target: flowdummy
- 
-19:46:02 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:46:04 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:46:12 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:46:12 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-19:46:12 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-Building file: ../src/flowdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/flowdummy.d" -MT"src/flowdummy.d" -o "src/flowdummy.o" "../src/flowdummy.c"
-Finished building: ../src/flowdummy.c
- 
-Building target: flowdummy
-Invoking: GCC C Linker
-gcc  -o "flowdummy"  ./src/flowdummy.o   
-Finished building target: flowdummy
- 
-19:46:13 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:46:14 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:46:34 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:46:34 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-19:46:34 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-Building file: ../src/flowdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/flowdummy.d" -MT"src/flowdummy.d" -o "src/flowdummy.o" "../src/flowdummy.c"
-Finished building: ../src/flowdummy.c
- 
-Building target: flowdummy
-Invoking: GCC C Linker
-gcc  -o "flowdummy"  ./src/flowdummy.o   
-Finished building target: flowdummy
- 
-19:46:35 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:46:36 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:51:39 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:51:39 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-19:51:39 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-Building file: ../src/flowdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/flowdummy.d" -MT"src/flowdummy.d" -o "src/flowdummy.o" "../src/flowdummy.c"
-Finished building: ../src/flowdummy.c
- 
-Building target: flowdummy
-Invoking: GCC C Linker
-gcc  -o "flowdummy"  ./src/flowdummy.o   
-Finished building target: flowdummy
- 
-19:51:40 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:51:41 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:52:20 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:52:20 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-19:52:20 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-Building file: ../src/flowdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/flowdummy.d" -MT"src/flowdummy.d" -o "src/flowdummy.o" "../src/flowdummy.c"
-Finished building: ../src/flowdummy.c
- 
-Building target: flowdummy
-Invoking: GCC C Linker
-gcc  -o "flowdummy"  ./src/flowdummy.o   
-Finished building target: flowdummy
- 
-19:52:21 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:52:24 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:52:52 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:52:52 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-19:52:52 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-Building file: ../src/flowdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/flowdummy.d" -MT"src/flowdummy.d" -o "src/flowdummy.o" "../src/flowdummy.c"
-Finished building: ../src/flowdummy.c
- 
-Building target: flowdummy
-Invoking: GCC C Linker
-gcc  -o "flowdummy"  ./src/flowdummy.o   
-Finished building target: flowdummy
- 
-19:52:53 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:52:56 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:53:00 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:54:54 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:54:54 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-19:54:54 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-Building file: ../src/flowdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/flowdummy.d" -MT"src/flowdummy.d" -o "src/flowdummy.o" "../src/flowdummy.c"
-Finished building: ../src/flowdummy.c
- 
-Building target: flowdummy
-Invoking: GCC C Linker
-gcc  -o "flowdummy"  ./src/flowdummy.o   
-Finished building target: flowdummy
- 
-19:54:54 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:54:57 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:55:07 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:55:07 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-19:55:08 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-Building file: ../src/flowdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/flowdummy.d" -MT"src/flowdummy.d" -o "src/flowdummy.o" "../src/flowdummy.c"
-Finished building: ../src/flowdummy.c
- 
-Building target: flowdummy
-Invoking: GCC C Linker
-gcc  -o "flowdummy"  ./src/flowdummy.o   
-Finished building target: flowdummy
- 
-19:55:08 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:55:14 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:56:25 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:56:25 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-19:56:25 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-Building file: ../src/flowdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/flowdummy.d" -MT"src/flowdummy.d" -o "src/flowdummy.o" "../src/flowdummy.c"
-../src/flowdummy.c: In function ‘main’:
-../src/flowdummy.c:71:3: error: expected ‘;’ before ‘printf’
-   printf("%d %% 7 = %d\n",a,b);
-   ^
-../src/flowdummy.c:67:6: warning: variable ‘b’ set but not used [-Wunused-but-set-variable]
-  int b;
-      ^
-make: *** [src/flowdummy.o] Error 1
-src/subdir.mk:18: recipe for target 'src/flowdummy.o' failed
-19:56:26 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:56:27 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-Building file: ../src/flowdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/flowdummy.d" -MT"src/flowdummy.d" -o "src/flowdummy.o" "../src/flowdummy.c"
-../src/flowdummy.c: In function ‘main’:
-../src/flowdummy.c:71:3: error: expected ‘;’ before ‘printf’
-   printf("%d %% 7 = %d\n",a,b);
-   ^
-../src/flowdummy.c:67:6: warning: variable ‘b’ set but not used [-Wunused-but-set-variable]
-  int b;
-      ^
-src/subdir.mk:18: recipe for target 'src/flowdummy.o' failed
-make: *** [src/flowdummy.o] Error 1
-19:56:35 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:56:35 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-19:56:35 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-Building file: ../src/flowdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/flowdummy.d" -MT"src/flowdummy.d" -o "src/flowdummy.o" "../src/flowdummy.c"
-Finished building: ../src/flowdummy.c
- 
-Building target: flowdummy
-Invoking: GCC C Linker
-gcc  -o "flowdummy"  ./src/flowdummy.o   
-Finished building target: flowdummy
- 
-19:56:36 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:56:42 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:57:42 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:57:42 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-19:57:43 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-Building file: ../src/flowdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/flowdummy.d" -MT"src/flowdummy.d" -o "src/flowdummy.o" "../src/flowdummy.c"
-Finished building: ../src/flowdummy.c
- 
-Building target: flowdummy
-Invoking: GCC C Linker
-gcc  -o "flowdummy"  ./src/flowdummy.o   
-Finished building target: flowdummy
- 
-19:57:43 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:57:46 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:58:08 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:58:08 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-19:58:08 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-Building file: ../src/flowdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/flowdummy.d" -MT"src/flowdummy.d" -o "src/flowdummy.o" "../src/flowdummy.c"
-Finished building: ../src/flowdummy.c
- 
-Building target: flowdummy
-Invoking: GCC C Linker
-gcc  -o "flowdummy"  ./src/flowdummy.o   
-Finished building target: flowdummy
- 
-19:58:08 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:58:09 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:58:39 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:58:39 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-19:58:39 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-Building file: ../src/flowdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/flowdummy.d" -MT"src/flowdummy.d" -o "src/flowdummy.o" "../src/flowdummy.c"
-Finished building: ../src/flowdummy.c
- 
-Building target: flowdummy
-Invoking: GCC C Linker
-gcc  -o "flowdummy"  ./src/flowdummy.o   
-Finished building target: flowdummy
- 
-19:58:40 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-19:58:41 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:00:30 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:00:30 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-20:00:30 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-Building file: ../src/flowdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/flowdummy.d" -MT"src/flowdummy.d" -o "src/flowdummy.o" "../src/flowdummy.c"
-Finished building: ../src/flowdummy.c
- 
-Building target: flowdummy
-Invoking: GCC C Linker
-gcc  -o "flowdummy"  ./src/flowdummy.o   
-Finished building target: flowdummy
- 
-20:00:31 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:00:37 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:00:37 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-20:00:37 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-Building file: ../src/flowdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/flowdummy.d" -MT"src/flowdummy.d" -o "src/flowdummy.o" "../src/flowdummy.c"
-Finished building: ../src/flowdummy.c
- 
-Building target: flowdummy
-Invoking: GCC C Linker
-gcc  -o "flowdummy"  ./src/flowdummy.o   
-Finished building target: flowdummy
- 
-20:00:38 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:00:39 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:00:53 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:00:53 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-20:00:54 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-Building file: ../src/flowdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/flowdummy.d" -MT"src/flowdummy.d" -o "src/flowdummy.o" "../src/flowdummy.c"
-Finished building: ../src/flowdummy.c
- 
-Building target: flowdummy
-Invoking: GCC C Linker
-gcc  -o "flowdummy"  ./src/flowdummy.o   
-Finished building target: flowdummy
- 
-20:00:54 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:00:55 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:01:26 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:01:27 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-20:01:27 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-Building file: ../src/flowdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/flowdummy.d" -MT"src/flowdummy.d" -o "src/flowdummy.o" "../src/flowdummy.c"
-Finished building: ../src/flowdummy.c
- 
-Building target: flowdummy
-Invoking: GCC C Linker
-gcc  -o "flowdummy"  ./src/flowdummy.o   
-Finished building target: flowdummy
- 
-20:01:27 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:01:29 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:02:04 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:02:04 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-20:02:04 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-Building file: ../src/flowdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/flowdummy.d" -MT"src/flowdummy.d" -o "src/flowdummy.o" "../src/flowdummy.c"
-Finished building: ../src/flowdummy.c
- 
-Building target: flowdummy
-Invoking: GCC C Linker
-gcc  -o "flowdummy"  ./src/flowdummy.o   
-Finished building target: flowdummy
- 
-20:02:05 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:02:06 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:04:04 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:04:04 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-20:04:04 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-Building file: ../src/flowdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/flowdummy.d" -MT"src/flowdummy.d" -o "src/flowdummy.o" "../src/flowdummy.c"
-../src/flowdummy.c: In function ‘main’:
-../src/flowdummy.c:79:2: error: expected ‘;’ before ‘}’ token
-  }
-  ^
-src/subdir.mk:18: recipe for target 'src/flowdummy.o' failed
-make: *** [src/flowdummy.o] Error 1
-20:04:05 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:04:08 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:04:08 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-20:04:08 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-Building file: ../src/flowdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/flowdummy.d" -MT"src/flowdummy.d" -o "src/flowdummy.o" "../src/flowdummy.c"
-Finished building: ../src/flowdummy.c
- 
-Building target: flowdummy
-Invoking: GCC C Linker
-gcc  -o "flowdummy"  ./src/flowdummy.o   
-Finished building target: flowdummy
- 
-20:04:09 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:04:11 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:04:21 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:04:21 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-20:04:21 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-Building file: ../src/flowdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/flowdummy.d" -MT"src/flowdummy.d" -o "src/flowdummy.o" "../src/flowdummy.c"
-Finished building: ../src/flowdummy.c
- 
-Building target: flowdummy
-Invoking: GCC C Linker
-gcc  -o "flowdummy"  ./src/flowdummy.o   
-Finished building target: flowdummy
- 
-20:04:22 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:04:23 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:04:37 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:04:37 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-20:04:37 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-Building file: ../src/flowdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/flowdummy.d" -MT"src/flowdummy.d" -o "src/flowdummy.o" "../src/flowdummy.c"
-Finished building: ../src/flowdummy.c
- 
-Building target: flowdummy
-Invoking: GCC C Linker
-gcc  -o "flowdummy"  ./src/flowdummy.o   
-Finished building target: flowdummy
- 
-20:04:38 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:04:39 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:05:03 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:05:03 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-20:05:04 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-Building file: ../src/flowdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/flowdummy.d" -MT"src/flowdummy.d" -o "src/flowdummy.o" "../src/flowdummy.c"
-Finished building: ../src/flowdummy.c
- 
-Building target: flowdummy
-Invoking: GCC C Linker
-gcc  -o "flowdummy"  ./src/flowdummy.o   
-Finished building target: flowdummy
- 
-20:05:04 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:05:05 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:06:06 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:06:06 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-20:06:06 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-Building file: ../src/flowdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/flowdummy.d" -MT"src/flowdummy.d" -o "src/flowdummy.o" "../src/flowdummy.c"
-Finished building: ../src/flowdummy.c
- 
-Building target: flowdummy
-Invoking: GCC C Linker
-gcc  -o "flowdummy"  ./src/flowdummy.o   
-Finished building target: flowdummy
- 
-20:06:07 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:07:35 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:07:36 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-20:07:36 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:07:36 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:07:36 **** Build of configuration Debug for project montiorwhiledummy ****
-make all 
-Building file: ../src/montiorwhiledummy.c
-Invoking: Cross GCC Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/montiorwhiledummy.d" -MT"src/montiorwhiledummy.d" -o "src/montiorwhiledummy.o" "../src/montiorwhiledummy.c"
-Finished building: ../src/montiorwhiledummy.c
- 
-Building target: montiorwhiledummy
-Invoking: Cross GCC Linker
-gcc  -o "montiorwhiledummy"  ./src/montiorwhiledummy.o   
-Finished building target: montiorwhiledummy
- 
-20:07:38 **** Incremental Build of configuration Debug for project montiorwhiledummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:07:53 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:07:53 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-20:07:53 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:07:54 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:07:54 **** Incremental Build of configuration Debug for project montiorwhiledummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:08:00 **** Incremental Build of configuration Debug for project montiorwhiledummy ****
-make all 
-Building file: ../src/montiorwhiledummy.c
-Invoking: Cross GCC Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/montiorwhiledummy.d" -MT"src/montiorwhiledummy.d" -o "src/montiorwhiledummy.o" "../src/montiorwhiledummy.c"
-../src/montiorwhiledummy.c: In function ‘main’:
-../src/montiorwhiledummy.c:18:8: warning: passing argument 1 of ‘puts’ makes pointer from integer without a cast [-Wint-conversion]
-   puts(a);
-        ^
-In file included from ../src/montiorwhiledummy.c:11:0:
-/usr/include/stdio.h:695:12: note: expected ‘const char *’ but argument is of type ‘int’
- extern int puts (const char *__s);
-            ^
-Finished building: ../src/montiorwhiledummy.c
- 
-Building target: montiorwhiledummy
-Invoking: Cross GCC Linker
-gcc  -o "montiorwhiledummy"  ./src/montiorwhiledummy.o   
-Finished building target: montiorwhiledummy
- 
-20:08:08 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:08:08 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-20:08:09 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:08:09 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:08:09 **** Incremental Build of configuration Debug for project montiorwhiledummy ****
-make all 
-Building file: ../src/montiorwhiledummy.c
-Invoking: Cross GCC Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/montiorwhiledummy.d" -MT"src/montiorwhiledummy.d" -o "src/montiorwhiledummy.o" "../src/montiorwhiledummy.c"
-Finished building: ../src/montiorwhiledummy.c
- 
-Building target: montiorwhiledummy
-Invoking: Cross GCC Linker
-gcc  -o "montiorwhiledummy"  ./src/montiorwhiledummy.o   
-Finished building target: montiorwhiledummy
- 
-20:09:02 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:09:02 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-20:09:02 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:09:03 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:09:03 **** Incremental Build of configuration Debug for project montiorwhiledummy ****
-make all 
-Building file: ../src/montiorwhiledummy.c
-Invoking: Cross GCC Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/montiorwhiledummy.d" -MT"src/montiorwhiledummy.d" -o "src/montiorwhiledummy.o" "../src/montiorwhiledummy.c"
-Finished building: ../src/montiorwhiledummy.c
- 
-Building target: montiorwhiledummy
-Invoking: Cross GCC Linker
-gcc  -o "montiorwhiledummy"  ./src/montiorwhiledummy.o   
-Finished building target: montiorwhiledummy
- 
-20:10:07 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:10:07 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-20:10:07 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:10:07 **** Build of configuration Debug for project fordummy ****
-make all 
-Building file: ../src/fordummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fordummy.d" -MT"src/fordummy.d" -o "src/fordummy.o" "../src/fordummy.c"
-Finished building: ../src/fordummy.c
- 
-Building target: fordummy
-Invoking: GCC C Linker
-gcc  -o "fordummy"  ./src/fordummy.o   
-Finished building target: fordummy
- 
-20:10:08 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:10:08 **** Incremental Build of configuration Debug for project montiorwhiledummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:10:45 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:10:45 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-20:10:46 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:10:46 **** Incremental Build of configuration Debug for project fordummy ****
-make all 
-Building file: ../src/fordummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fordummy.d" -MT"src/fordummy.d" -o "src/fordummy.o" "../src/fordummy.c"
-Finished building: ../src/fordummy.c
- 
-Building target: fordummy
-Invoking: GCC C Linker
-gcc  -o "fordummy"  ./src/fordummy.o   
-Finished building target: fordummy
- 
-20:10:46 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:10:47 **** Incremental Build of configuration Debug for project montiorwhiledummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:10:48 **** Incremental Build of configuration Debug for project fordummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:10:56 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:10:56 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-20:10:57 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:10:57 **** Incremental Build of configuration Debug for project fordummy ****
-make all 
-Building file: ../src/fordummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fordummy.d" -MT"src/fordummy.d" -o "src/fordummy.o" "../src/fordummy.c"
-Finished building: ../src/fordummy.c
- 
-Building target: fordummy
-Invoking: GCC C Linker
-gcc  -o "fordummy"  ./src/fordummy.o   
-Finished building target: fordummy
- 
-20:10:57 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:10:57 **** Incremental Build of configuration Debug for project montiorwhiledummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:10:58 **** Incremental Build of configuration Debug for project fordummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:11:15 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:11:15 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-20:11:15 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:11:15 **** Incremental Build of configuration Debug for project fordummy ****
-make all 
-Building file: ../src/fordummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fordummy.d" -MT"src/fordummy.d" -o "src/fordummy.o" "../src/fordummy.c"
-Finished building: ../src/fordummy.c
- 
-Building target: fordummy
-Invoking: GCC C Linker
-gcc  -o "fordummy"  ./src/fordummy.o   
-Finished building target: fordummy
- 
-20:11:16 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:11:16 **** Incremental Build of configuration Debug for project montiorwhiledummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:11:18 **** Incremental Build of configuration Debug for project fordummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:17:00 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:17:00 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-20:17:00 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:17:01 **** Incremental Build of configuration Debug for project fordummy ****
-make all 
-Building file: ../src/fordummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fordummy.d" -MT"src/fordummy.d" -o "src/fordummy.o" "../src/fordummy.c"
-../src/fordummy.c: In function ‘main’:
-../src/fordummy.c:29:3: warning: statement with no effect [-Wunused-value]
-   for(int ch2=0;ch2<20;ch2+2){//could do modulo stuff here instead of +2
-   ^
-Finished building: ../src/fordummy.c
- 
-Building target: fordummy
-Invoking: GCC C Linker
-gcc  -o "fordummy"  ./src/fordummy.o   
-Finished building target: fordummy
- 
-20:17:01 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:17:01 **** Incremental Build of configuration Debug for project montiorwhiledummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:17:03 **** Incremental Build of configuration Debug for project fordummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:17:25 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:17:25 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-20:17:25 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:17:26 **** Incremental Build of configuration Debug for project fordummy ****
-make all 
-Building file: ../src/fordummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fordummy.d" -MT"src/fordummy.d" -o "src/fordummy.o" "../src/fordummy.c"
-Finished building: ../src/fordummy.c
- 
-Building target: fordummy
-Invoking: GCC C Linker
-gcc  -o "fordummy"  ./src/fordummy.o   
-Finished building target: fordummy
- 
-20:17:26 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:17:26 **** Incremental Build of configuration Debug for project montiorwhiledummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:17:30 **** Incremental Build of configuration Debug for project fordummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:17:53 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:17:53 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-20:17:53 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:17:53 **** Incremental Build of configuration Debug for project fordummy ****
-make all 
-Building file: ../src/fordummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fordummy.d" -MT"src/fordummy.d" -o "src/fordummy.o" "../src/fordummy.c"
-Finished building: ../src/fordummy.c
- 
-Building target: fordummy
-Invoking: GCC C Linker
-gcc  -o "fordummy"  ./src/fordummy.o   
-Finished building target: fordummy
- 
-20:17:54 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:17:54 **** Incremental Build of configuration Debug for project montiorwhiledummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:17:55 **** Incremental Build of configuration Debug for project fordummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:18:56 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:18:56 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-20:18:56 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:18:57 **** Incremental Build of configuration Debug for project fordummy ****
-make all 
-Building file: ../src/fordummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fordummy.d" -MT"src/fordummy.d" -o "src/fordummy.o" "../src/fordummy.c"
-Finished building: ../src/fordummy.c
- 
-Building target: fordummy
-Invoking: GCC C Linker
-gcc  -o "fordummy"  ./src/fordummy.o   
-Finished building target: fordummy
- 
-20:18:57 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:18:57 **** Incremental Build of configuration Debug for project montiorwhiledummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:19:12 **** Incremental Build of configuration Debug for project fordummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:21:50 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:21:50 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-20:21:51 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:21:51 **** Incremental Build of configuration Debug for project fordummy ****
-make all 
-Building file: ../src/fordummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fordummy.d" -MT"src/fordummy.d" -o "src/fordummy.o" "../src/fordummy.c"
-../src/fordummy.c: In function ‘main’:
-../src/fordummy.c:36:18: warning: implicit declaration of function ‘time’ [-Wimplicit-function-declaration]
-  srand((unsigned)time(NULL));
-                  ^
-Finished building: ../src/fordummy.c
- 
-Building target: fordummy
-Invoking: GCC C Linker
-gcc  -o "fordummy"  ./src/fordummy.o   
-Finished building target: fordummy
- 
-20:21:51 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:21:51 **** Incremental Build of configuration Debug for project montiorwhiledummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:21:52 **** Incremental Build of configuration Debug for project fordummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:21:58 **** Incremental Build of configuration Debug for project fordummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:21:59 **** Incremental Build of configuration Debug for project fordummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:22:00 **** Incremental Build of configuration Debug for project fordummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:23:20 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:23:20 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-20:23:21 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:23:21 **** Incremental Build of configuration Debug for project fordummy ****
-make all 
-Building file: ../src/fordummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fordummy.d" -MT"src/fordummy.d" -o "src/fordummy.o" "../src/fordummy.c"
-../src/fordummy.c: In function ‘main’:
-../src/fordummy.c:36:18: warning: implicit declaration of function ‘time’ [-Wimplicit-function-declaration]
-  srand((unsigned)time(NULL));
-                  ^
-Finished building: ../src/fordummy.c
- 
-Building target: fordummy
-Invoking: GCC C Linker
-gcc  -o "fordummy"  ./src/fordummy.o   
-Finished building target: fordummy
- 
-20:23:21 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:23:22 **** Incremental Build of configuration Debug for project montiorwhiledummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:23:23 **** Incremental Build of configuration Debug for project fordummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:23:47 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:23:47 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-20:23:48 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:23:48 **** Incremental Build of configuration Debug for project fordummy ****
-make all 
-Building file: ../src/fordummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fordummy.d" -MT"src/fordummy.d" -o "src/fordummy.o" "../src/fordummy.c"
-../src/fordummy.c: In function ‘main’:
-../src/fordummy.c:36:18: warning: implicit declaration of function ‘time’ [-Wimplicit-function-declaration]
-  srand((unsigned)time(NULL));
-                  ^
-Finished building: ../src/fordummy.c
- 
-Building target: fordummy
-Invoking: GCC C Linker
-gcc  -o "fordummy"  ./src/fordummy.o   
-Finished building target: fordummy
- 
-20:23:48 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:23:49 **** Incremental Build of configuration Debug for project montiorwhiledummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:23:50 **** Incremental Build of configuration Debug for project fordummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:24:12 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:24:12 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-20:24:13 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:24:13 **** Incremental Build of configuration Debug for project fordummy ****
-make all 
-Building file: ../src/fordummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fordummy.d" -MT"src/fordummy.d" -o "src/fordummy.o" "../src/fordummy.c"
-../src/fordummy.c: In function ‘main’:
-../src/fordummy.c:36:18: warning: implicit declaration of function ‘time’ [-Wimplicit-function-declaration]
-  srand((unsigned)time(NULL));
-                  ^
-Finished building: ../src/fordummy.c
- 
-Building target: fordummy
-Invoking: GCC C Linker
-gcc  -o "fordummy"  ./src/fordummy.o   
-Finished building target: fordummy
- 
-20:24:13 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:24:14 **** Incremental Build of configuration Debug for project montiorwhiledummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:25:54 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:25:54 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-20:25:55 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:25:55 **** Incremental Build of configuration Debug for project fordummy ****
-make all 
-Building file: ../src/fordummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fordummy.d" -MT"src/fordummy.d" -o "src/fordummy.o" "../src/fordummy.c"
-../src/fordummy.c: In function ‘main’:
-../src/fordummy.c:36:18: warning: implicit declaration of function ‘time’ [-Wimplicit-function-declaration]
-  srand((unsigned)time(NULL));
-                  ^
-Finished building: ../src/fordummy.c
- 
-Building target: fordummy
-Invoking: GCC C Linker
-gcc  -o "fordummy"  ./src/fordummy.o   
-Finished building target: fordummy
- 
-20:25:55 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:25:55 **** Incremental Build of configuration Debug for project montiorwhiledummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:25:57 **** Incremental Build of configuration Debug for project fordummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:26:13 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:26:13 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-20:26:13 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:26:14 **** Incremental Build of configuration Debug for project fordummy ****
-make all 
-Building file: ../src/fordummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fordummy.d" -MT"src/fordummy.d" -o "src/fordummy.o" "../src/fordummy.c"
-../src/fordummy.c: In function ‘main’:
-../src/fordummy.c:36:18: warning: implicit declaration of function ‘time’ [-Wimplicit-function-declaration]
-  srand((unsigned)time(NULL));
-                  ^
-Finished building: ../src/fordummy.c
- 
-Building target: fordummy
-Invoking: GCC C Linker
-gcc  -o "fordummy"  ./src/fordummy.o   
-Finished building target: fordummy
- 
-20:26:14 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:26:14 **** Incremental Build of configuration Debug for project montiorwhiledummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:26:16 **** Incremental Build of configuration Debug for project fordummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:29:08 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:29:08 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-20:29:09 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:29:09 **** Incremental Build of configuration Debug for project fordummy ****
-make all 
-Building file: ../src/fordummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fordummy.d" -MT"src/fordummy.d" -o "src/fordummy.o" "../src/fordummy.c"
-../src/fordummy.c: In function ‘main’:
-../src/fordummy.c:36:18: warning: implicit declaration of function ‘time’ [-Wimplicit-function-declaration]
-  srand((unsigned)time(NULL));
-                  ^
-Finished building: ../src/fordummy.c
- 
-Building target: fordummy
-Invoking: GCC C Linker
-gcc  -o "fordummy"  ./src/fordummy.o   
-Finished building target: fordummy
- 
-20:29:10 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:29:10 **** Incremental Build of configuration Debug for project montiorwhiledummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:29:19 **** Incremental Build of configuration Debug for project dummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:29:19 **** Incremental Build of configuration Debug for project dummy2 ****
-make all 
-make: Nothing to be done for 'all'.
-20:29:20 **** Incremental Build of configuration Debug for project flowdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:29:20 **** Incremental Build of configuration Debug for project fordummy ****
-make all 
-Building file: ../src/fordummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fordummy.d" -MT"src/fordummy.d" -o "src/fordummy.o" "../src/fordummy.c"
-../src/fordummy.c: In function ‘main’:
-../src/fordummy.c:36:18: warning: implicit declaration of function ‘time’ [-Wimplicit-function-declaration]
-  srand((unsigned)time(NULL));
-                  ^
-Finished building: ../src/fordummy.c
- 
-Building target: fordummy
-Invoking: GCC C Linker
-gcc  -o "fordummy"  ./src/fordummy.o   
-Finished building target: fordummy
- 
-20:29:20 **** Incremental Build of configuration Debug for project mathdummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:29:21 **** Incremental Build of configuration Debug for project montiorwhiledummy ****
-make all 
-make: Nothing to be done for 'all'.
-20:29:28 **** Incremental Build of configuration Debug for project fordummy ****
+21:10:51 **** Incremental Build of configuration Debug for project returndummy ****
 make all 
 make: Nothing to be done for 'all'.

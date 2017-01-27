@@ -237,3 +237,18 @@ java.io.IOException: close error
 
 !ENTRY org.eclipse.cdt.core 1 0 2017-01-26 20:09:30.325
 !MESSAGE Indexed 'fordummy' (1 sources, 37 headers) in 0.712 sec: 1,041 declarations; 1,879 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-01-26 20:32:26.683
+!MESSAGE Indexed 'functiondummy' (1 sources, 37 headers) in 0.663 sec: 1,041 declarations; 1,879 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-01-26 20:43:29.953
+!MESSAGE Indexed 'argsdummy' (1 sources, 37 headers) in 0.658 sec: 1,041 declarations; 1,879 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-01-26 20:54:10.664
+!MESSAGE Indexed 'funcchallenge' (1 sources, 37 headers) in 0.545 sec: 1,041 declarations; 1,879 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-01-26 20:59:00.395
+!MESSAGE Indexed 'returnvaldummy' (1 sources, 37 headers) in 0.514 sec: 1,041 declarations; 1,879 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-01-26 21:07:03.847
+!MESSAGE Indexed 'returndummy' (1 sources, 37 headers) in 0.406 sec: 1,041 declarations; 1,879 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
