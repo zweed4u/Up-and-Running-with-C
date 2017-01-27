@@ -1,15 +1,6 @@
-15:24:43 **** Incremental Build of configuration Debug for project stringdummy ****
+15:56:24 **** Incremental Build of configuration Debug for project stringdummy ****
 make all 
-Building file: ../src/stringdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/stringdummy.d" -MT"src/stringdummy.d" -o "src/stringdummy.o" "../src/stringdummy.c"
-Finished building: ../src/stringdummy.c
- 
-Building target: stringdummy
-Invoking: GCC C Linker
-gcc  -o "stringdummy"  ./src/stringdummy.o   
-Finished building target: stringdummy
- 
+make: Nothing to be done for 'all'.
 
-15:24:44 Build Finished (took 333ms)
+15:56:24 Build Finished (took 131ms)
 

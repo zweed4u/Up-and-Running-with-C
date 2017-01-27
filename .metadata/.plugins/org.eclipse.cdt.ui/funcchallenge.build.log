@@ -1,6 +1,6 @@
-15:24:42 **** Incremental Build of configuration Debug for project funcchallenge ****
+15:56:22 **** Incremental Build of configuration Debug for project funcchallenge ****
 make all 
 make: Nothing to be done for 'all'.
 
-15:24:42 Build Finished (took 124ms)
+15:56:22 Build Finished (took 72ms)
 
