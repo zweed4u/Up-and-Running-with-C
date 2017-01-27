@@ -1,6 +1,6 @@
-17:12:12 **** Incremental Build of configuration Debug for project logicaloperatorsdummy ****
+17:29:10 **** Incremental Build of configuration Debug for project logicaloperatorsdummy ****
 make all 
 make: Nothing to be done for 'all'.
 
-17:12:13 Build Finished (took 133ms)
+17:29:11 Build Finished (took 126ms)
 

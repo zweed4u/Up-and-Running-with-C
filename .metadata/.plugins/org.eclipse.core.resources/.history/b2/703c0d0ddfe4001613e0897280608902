@@ -1,0 +1,20 @@
+/*
+ ============================================================================
+ Name        : pointersdummy.c
+ Author      : Zachary Weeden
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	//pointers must be initialized!!!
+	//pointer type must match the variable it references
+	int pokey;
+	printf("The address of `pokey` is: %p\n",&pokey);//& fetches address
+	return EXIT_SUCCESS;
+}

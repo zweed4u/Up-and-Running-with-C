@@ -1,0 +1,24 @@
+/*
+ ============================================================================
+ Name        : pointerchallenge.c
+ Author      : Zachary Weeden
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	char pokey='Z';
+	char *p_pokey;
+	p_pokey=&pokey;
+	printf("Value of pokey: %c",pokey);
+	printf("Value of pokey: %c",*p_pokey);
+
+	printf("Address of pokey: %p",&pokey);
+	printf("Address of pokey: %p",p_pokey);
+	return EXIT_SUCCESS;
+}
