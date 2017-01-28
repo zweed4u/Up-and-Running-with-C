@@ -1,0 +1,37 @@
+/*
+ ============================================================================
+ Name        : linkedlistdummy.c
+ Author      : Zachary Weeden
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	struct stats{
+		int account;
+		float balance;
+	};
+	struct stats *first;//pointer to stats structure
+	int a=1;
+
+	//create a new structure
+	first=(struct stats *)malloc(sizeof(struct stats));//memory allocated for the structure
+	if(first==NULL){
+		puts("Memory Error");
+		return(1);
+	}
+	//fill the structure
+	first->account=a;
+	printf("Account %05d, enter the balance: $",first->account);
+	scanf("%f",&first->balance);
+
+	//display the structure
+	printf("Account %05d, balance: $%.2f\n",first->account,first->balance);
+
+	return EXIT_SUCCESS;
+}

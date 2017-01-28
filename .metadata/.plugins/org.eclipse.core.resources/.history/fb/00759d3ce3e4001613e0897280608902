@@ -1,0 +1,20 @@
+/*
+ ============================================================================
+ Name        : scanfpointerdummy.c
+ Author      : Zachary Weeden
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	char name[15];//14 letters and null
+	printf("Type your name: ");
+	scanf("%s",name);//& not needed because array
+	printf("You typed: %s\n",name);
+	return EXIT_SUCCESS;
+}

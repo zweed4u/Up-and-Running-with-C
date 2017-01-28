@@ -1,0 +1,35 @@
+/*
+ ============================================================================
+ Name        : morepointerarraydummy.c
+ Author      : Zachary Weeden
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	//array of pointers -- collection of mem addresses
+	char *gang[5]={//little rascals
+			"Spanky",
+			"Buckwheat",
+			"Alfalfa",
+			"Darla",
+			"Pete the Pup"
+	};
+	int x;
+	char *cptr;
+	for(x=0;x<5;x++){
+		//cptr=gang[x];//array notation 'heinous'convert to pointer notation
+		cptr=*(gang+x)
+		while(*cptr){//contents/chars of each gang element
+			putchar(*cptr);//output char
+			cptr++;//increment memloc
+		}
+		putchar('\n');
+	}
+	return EXIT_SUCCESS;
+}

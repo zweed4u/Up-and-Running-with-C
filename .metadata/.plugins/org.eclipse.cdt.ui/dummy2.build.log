@@ -1,6 +1,6 @@
-17:29:09 **** Incremental Build of configuration Debug for project dummy2 ****
+19:26:57 **** Incremental Build of configuration Debug for project dummy2 ****
 make all 
 make: Nothing to be done for 'all'.
 
-17:29:10 Build Finished (took 127ms)
+19:26:57 Build Finished (took 130ms)
 

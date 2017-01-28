@@ -1,0 +1,23 @@
+/*
+ ============================================================================
+ Name        : shoutingdummy.c
+ Author      : Zachary Weeden
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+void shouting(char *input);
+
+int main(void) {
+	char string[64];
+	printf("Type some text: ");
+	fgets(string,64,stdin);
+	printf("You typed: %s",input);
+	shouting(sting)
+	return EXIT_SUCCESS;
+}

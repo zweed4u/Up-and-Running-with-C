@@ -1,0 +1,43 @@
+/*
+ ============================================================================
+ Name        : linkedlistdummy.c
+ Author      : Zachary Weeden
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+struct stats{//global variable (linked list needs to know vars)
+		int account;
+		float balance;
+		struct stats *next;//pointer to another structure
+};
+struct stats *create(void);//prototype
+void fill_structure(struct stats *s);
+int main(void) {
+
+	struct stats *first;//holds the address of the first structure in the list - base of linked list
+	struct stats *current;//current structure being manipulated
+	struct stats *new;//used when new structure are created - not a keyword in C (it is in C++)
+	int a=1;
+
+	//create first structure
+	first=create();
+
+	return EXIT_SUCCESS;
+}
+
+//allocate storage for one new structure
+struct stats *create(void){
+	struct stats *baby;
+	baby=(struct stats *)malloc(sizeof(struct stats));
+	if(baby==NULL){
+		puts("MEMORY ERROR");
+		exit(1);//stdlib
+	}
+	return baby;//location of allocated memory returned
+}

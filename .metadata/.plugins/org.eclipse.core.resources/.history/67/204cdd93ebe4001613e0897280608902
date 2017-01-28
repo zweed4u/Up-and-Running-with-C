@@ -1,0 +1,26 @@
+/*
+ ============================================================================
+ Name        : structmemallocationdummy.c
+ Author      : Zachary Weeden
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	struct date{
+		int month;
+		int day;
+		int year;
+	};
+	struct date *birthday;//pointer var for structure created
+	birthday=(struct *date)malloc(sizeof(struct date));//storage of structure
+	if(birthday==NULL){
+
+	}
+	return EXIT_SUCCESS;
+}

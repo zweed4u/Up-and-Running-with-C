@@ -370,3 +370,33 @@ java.io.IOException: Cannot run program "gdb": Unknown reason
 
 !ENTRY org.eclipse.cdt.core 1 0 2017-01-27 17:27:00.625
 !MESSAGE Indexed 'pointerchallenge' (1 sources, 37 headers) in 0.363 sec: 1,041 declarations; 1,879 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-01-27 17:30:36.170
+!MESSAGE Indexed 'arraypointerdummy' (1 sources, 37 headers) in 0.399 sec: 1,041 declarations; 1,879 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-01-27 17:42:07.723
+!MESSAGE Indexed 'stringpointerdummy' (1 sources, 37 headers) in 0.407 sec: 1,041 declarations; 1,879 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-01-27 17:47:09.737
+!MESSAGE Indexed 'scanfpointerdummy' (1 sources, 37 headers) in 0.376 sec: 1,041 declarations; 1,879 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-01-27 17:53:37.382
+!MESSAGE Indexed 'pointerfunctiondummy' (1 sources, 37 headers) in 0.373 sec: 1,041 declarations; 1,879 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-01-27 17:59:08.040
+!MESSAGE Indexed 'shoutingdummy' (1 sources, 37 headers) in 0.44 sec: 1,041 declarations; 1,879 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-01-27 18:21:04.410
+!MESSAGE Indexed 'morepointerarraydummy' (1 sources, 37 headers) in 0.357 sec: 1,041 declarations; 1,879 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-01-27 18:33:26.761
+!MESSAGE Indexed 'allocatedummy' (1 sources, 37 headers) in 0.399 sec: 1,041 declarations; 1,879 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-01-27 18:42:53.908
+!MESSAGE Indexed 'allocatechallengedummy' (1 sources, 37 headers) in 0.354 sec: 1,041 declarations; 1,879 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-01-27 18:49:38.179
+!MESSAGE Indexed 'structmemallocationdummy' (1 sources, 37 headers) in 0.353 sec: 1,041 declarations; 1,879 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-01-27 18:58:22.428
+!MESSAGE Indexed 'linkedlistdummy' (1 sources, 37 headers) in 0.408 sec: 1,041 declarations; 1,879 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)

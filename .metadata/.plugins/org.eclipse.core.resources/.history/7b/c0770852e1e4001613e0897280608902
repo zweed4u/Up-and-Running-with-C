@@ -1,0 +1,40 @@
+/*
+ ============================================================================
+ Name        : arraypointerdummy.c
+ Author      : Zachary Weeden
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int array[]={11, 13, 17, 19};//datatype is what the array elements are
+	int x;
+	for(x=0;x<4;x++){
+		printf("Element %d of array is: %d\n",x,array[x]);
+	}
+	putchar('\n');
+	//using a pointer
+	int y;
+	int *aptr;
+	aptr=array; //no & needed for array
+	for(y=0;y<4;y++){
+		printf("Element %d of array is: %d\n",y,*aptr);//value of pointer location is fetched
+		aptr++;//increment the pointer mem location by the size of datatype that matches the variable []
+	}
+	putchar('\n');
+
+	//manipulating array with pointer
+	int z;
+	int *aptr;
+	aptr=array; //no & needed for array
+	for(z=0;z<4;z++){
+		printf("Element %d of array is: %d\n",z,*aptr);//value of pointer location is fetched
+		aptr++;//increment the pointer mem location by the size of datatype that matches the variable []
+	}
+	return EXIT_SUCCESS;
+}
