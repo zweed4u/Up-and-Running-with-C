@@ -1,0 +1,47 @@
+/*
+ ============================================================================
+ Name        : bitwiseopdummy.c
+ Author      : Zachary Weeden
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	//C essentials - bit-level calculations with bitwise operations
+	// & AND
+	// ~ one's complement 0->1, 0->1 toggle in a given number
+	// | OR
+	// >> right shift
+	// ^ XOR
+	// << left shift
+	/*
+	 * TABLE	AND		OR		XOR
+	 * p	q	pq		p+q		p^q
+	 * 0	0	0		0		0
+	 * 0	1	0		1		1
+	 * 1	0	0		1		1
+	 * 1	1	1		1		0
+	 */
+	puts("Bit-level calculations:");
+	puts("========================");
+
+	unsigned int x=10;
+	unsigned int y=1;
+	unsigned int result;
+
+	result=x&y;//bit level and
+	printf("x & y = %d\n",result);
+
+	result=x|y;//bit level or
+	printf("x | y = %d\n",result);
+
+	result=x^y;//bit level xor
+	printf("x ^ y = %d\n",result);
+
+	return EXIT_SUCCESS;
+}

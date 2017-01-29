@@ -1,15 +1,6 @@
-19:27:59 **** Incremental Build of configuration Debug for project linkedlistdummy ****
+21:09:50 **** Incremental Build of configuration Debug for project linkedlistdummy ****
 make all 
-Building file: ../src/linkedlistdummy.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/linkedlistdummy.d" -MT"src/linkedlistdummy.d" -o "src/linkedlistdummy.o" "../src/linkedlistdummy.c"
-Finished building: ../src/linkedlistdummy.c
- 
-Building target: linkedlistdummy
-Invoking: GCC C Linker
-gcc  -o "linkedlistdummy"  ./src/linkedlistdummy.o   
-Finished building target: linkedlistdummy
- 
+make: Nothing to be done for 'all'.
 
-19:27:59 Build Finished (took 275ms)
+21:09:50 Build Finished (took 136ms)
 

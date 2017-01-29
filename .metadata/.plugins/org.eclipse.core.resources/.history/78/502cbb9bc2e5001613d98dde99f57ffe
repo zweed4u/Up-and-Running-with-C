@@ -1,0 +1,71 @@
+/*
+ ============================================================================
+ Name        : bitwiseopdummy.c
+ Author      : Zachary Weeden
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	//C essentials - bit-level calculations with bitwise operations
+	// & AND
+	// ~ one's complement 0->1, 0->1 toggle in a given number
+	// | OR
+	// >> right shift
+	// ^ XOR
+	// << left shift
+	/*
+	 * TABLE	AND		OR		XOR
+	 * p	q	pq		p+q		p^q
+	 * 0	0	0		0		0
+	 * 0	1	0		1		1
+	 * 1	0	0		1		1
+	 * 1	1	1		1		0
+	 */
+	puts("Bit-level calculations:");
+	puts("========================");
+
+	int x=10;
+	unsigned int y=1;
+	unsigned int result;
+
+	result=x&y;//bit level and
+	printf("x & y = %d\n",result);//1010 and 0001 = 0000 = 0
+
+	result=x|y;//bit level or
+	printf("x | y = %d\n",result); // 1010 or 0001 = 1011 = 11
+
+	result=x^y;//bit level xor
+	printf("x ^ y = %d\n",result);//1010 xor 0001 = 1011 = 11
+
+
+	//right shift and left shift
+	result=x>>1;//shift to right 1
+	printf("x >> 1 = %d\n",result);//1010 shift over right 1 = 0101 = 5
+
+	result=x<<1;//shift to left 1
+	printf("x << 1 = %d\n",result);//1010 shift over left 1 = 10100 = 20
+
+	result=y>>1;//shift to right 1
+	printf("y >> 1 = %d\n",result);//0001 shift over right 1 = 0000 = 0
+
+	result=y<<1;//shift to left 1
+	printf("y << 1 = %d\n",result);//0001 shift over left 1 = 0010 = 2
+
+
+	//2s complement
+	result=~x;//1s complement of x adds one and flips polarity 0000 0000 0000 1010
+	printf("~x = %d\n",result);//1010 -> toggle = 0101 = 5
+
+	result=~y;//1s complement of y adds one and flips polarity 0000 0000 0000 0001
+	printf("~y = %d\n",result);//0001 -> toggle = 1110 = 14
+
+
+
+	return EXIT_SUCCESS;
+}

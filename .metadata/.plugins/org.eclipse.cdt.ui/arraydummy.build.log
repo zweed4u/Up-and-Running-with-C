@@ -1,6 +1,6 @@
-19:26:56 **** Incremental Build of configuration Debug for project arraydummy ****
+21:09:47 **** Incremental Build of configuration Debug for project arraydummy ****
 make all 
 make: Nothing to be done for 'all'.
 
-19:26:56 Build Finished (took 130ms)
+21:09:48 Build Finished (took 126ms)
 

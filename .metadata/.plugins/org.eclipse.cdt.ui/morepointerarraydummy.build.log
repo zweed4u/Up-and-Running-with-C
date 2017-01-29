@@ -1,6 +1,6 @@
-19:26:59 **** Incremental Build of configuration Debug for project morepointerarraydummy ****
+21:09:51 **** Incremental Build of configuration Debug for project morepointerarraydummy ****
 make all 
 make: Nothing to be done for 'all'.
 
-19:26:59 Build Finished (took 88ms)
+21:09:51 Build Finished (took 123ms)
 
